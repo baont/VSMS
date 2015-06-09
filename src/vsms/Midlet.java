@@ -87,13 +87,14 @@ public class Midlet extends MIDlet {
         ResourceManager.waitCircle = new FrameImage(Resource.createImage(ResourceManager.WAITCIRCLE_PNG), 6);
         LAF.setLAFMode(LAF.MGO);
 
-        String name = "AFUN";
+        String name = "ASMS";
         providerCode = "JAV";
         //#ifdef bavapen 
 //#         name = "Bavapen";
 //#             providerCode = "TCM";
         //#elifdef VUH
 //#         providerCode = "VUH";
+//#         name = "AFUN";
         //#endif
         String p = System.getProperty("microedition.platform");
 //        p = "GT-S5233W/S5233WDXIH2";
