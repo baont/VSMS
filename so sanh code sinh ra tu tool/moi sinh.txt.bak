@@ -1,0 +1,842 @@
+﻿case 0:
+  addNewScreenItem("Xổ số Miền Bắc", 1);
+  addNewScreenItem("Xổ số Miền Trung", 2);
+  addNewScreenItem("Xổ số Miền Nam", 3);
+  addNewScreenItem("Xổ số Điện toán", 4);
+  addNewScreenItem("Bóng đá", 5);
+  addNewScreenItem("Xem vui vui", 6);
+  addNewScreenItem("Phong thủy", 7);
+  addNewScreenItem("Tình yêu", 8);
+  addNewScreenItem("Lịch", 9);
+  addNewScreenItem("Giá cả", 10);
+  addNewScreenItem("Tin tức", 11);
+  addNewScreenItem("Giải trí", 12);
+  addNewScreenItem("Tư vấn", 13);
+  addNewScreenItem("Sức khỏe", 14);
+  addNewScreenItem("Tra cứu", 15);
+break;
+case 1:
+  addNewScreenItem("Miền Bắc", 101);
+break;
+case 101:
+  addAotmicItem("Kết quả mới nhất",2000,"XSMB","8179");
+  addAotmicItem("Kết quả trực tiếp",2000,"XSMB","8579");
+  addAotmicItem("Xuất hiện nhiều nhất trong 30 ngày",2000,"TKMAX30","8579");
+  addAotmicItem("Xuất hiện ít nhất trong 30 ngày",2000,"TKMIN30","8579");
+  addAotmicItem("Đầu xuất hiện trong 30 ngày",2000,"TKDAU30","8579");
+  addAotmicItem("Đuôi xuất hiện trong 30 ngày",2000,"TKCUOI30","8579");
+  addAotmicItem("Thống kê Xổ số",2000,"TKXSMB","8579");
+  addAotmicItem("Thống kê VIP XSMB",2000,"TKXSSCMB","8779");
+break;
+case 2:
+  addNewScreenItem("Bình Định", 201);
+  addNewScreenItem("Đà Nẵng", 202);
+  addNewScreenItem("Đăk Lăk", 203);
+  addNewScreenItem("Đăk Nông", 204);
+  addNewScreenItem("Gia Lai", 205);
+  addNewScreenItem("Huế", 206);
+  addNewScreenItem("Khánh Hòa", 207);
+  addNewScreenItem("Kon Tum", 208);
+  addNewScreenItem("Ninh Thuận", 209);
+  addNewScreenItem("Phú Yên", 210);
+  addNewScreenItem("Quảng Bình", 211);
+  addNewScreenItem("Quảng Nam", 212);
+  addNewScreenItem("Quảng Ngãi", 213);
+  addNewScreenItem("Quảng Trị", 214);
+break;
+case 201:
+  addAotmicItem("Kết quả mới nhất",2000,"XSBDI","8179");
+  addAotmicItem("Kết quả trực tiếp",2000,"XSBDI","8579");
+  addAotmicItem("Thống kê Xổ số",2000,"TKXSBDI","8579");
+break;
+case 202:
+  addAotmicItem("Kết quả mới nhất",2000,"XSDNA","8179");
+  addAotmicItem("Kết quả trực tiếp",2000,"XSDNA","8579");
+  addAotmicItem("Thống kê Xổ số",2000,"TKXSDNA","8579");
+break;
+case 203:
+  addAotmicItem("Kết quả mới nhất",2000,"XSDLK","8179");
+  addAotmicItem("Kết quả trực tiếp",2000,"XSDLK","8579");
+  addAotmicItem("Thống kê Xổ số",2000,"TKXSDLK","8579");
+break;
+case 204:
+  addAotmicItem("Kết quả mới nhất",2000,"XSDNO","8179");
+  addAotmicItem("Kết quả trực tiếp",2000,"XSDNO","8579");
+  addAotmicItem("Thống kê Xổ số",2000,"TKXSDNO","8579");
+break;
+case 205:
+  addAotmicItem("Kết quả mới nhất",2000,"XSGL","8179");
+  addAotmicItem("Kết quả trực tiếp",2000,"XSGL","8579");
+  addAotmicItem("Thống kê Xổ số",2000,"TKXSGLA","8579");
+break;
+case 206:
+  addAotmicItem("Kết quả mới nhất",2000,"XSTTH","8179");
+  addAotmicItem("Kết quả trực tiếp",2000,"XSTTH","8579");
+  addAotmicItem("Thống kê Xổ số",2000,"TKXSHUE","8579");
+break;
+case 207:
+  addAotmicItem("Kết quả mới nhất",2000,"XSKH","8179");
+  addAotmicItem("Kết quả trực tiếp",2000,"XSKH","8579");
+  addAotmicItem("Thống kê Xổ số",2000,"TKXSKH","8579");
+break;
+case 208:
+  addAotmicItem("Kết quả mới nhất",2000,"XSKT","8179");
+  addAotmicItem("Kết quả trực tiếp",2000,"XSKT","8579");
+  addAotmicItem("Thống kê Xổ số",2000,"TKXSKTU","8579");
+break;
+case 209:
+  addAotmicItem("Kết quả mới nhất",2000,"XSNT","8179");
+  addAotmicItem("Kết quả trực tiếp",2000,"XSNT","8579");
+  addAotmicItem("Thống kê Xổ số",2000,"TKXSNTH","8579");
+break;
+case 210:
+  addAotmicItem("Kết quả mới nhất",2000,"XSPY","8179");
+  addAotmicItem("Kết quả trực tiếp",2000,"XSPY","8579");
+  addAotmicItem("Thống kê Xổ số",2000,"TKXSPHY","8579");
+break;
+case 211:
+  addAotmicItem("Kết quả mới nhất",2000,"XSQB","8179");
+  addAotmicItem("Kết quả trực tiếp",2000,"XSQB","8579");
+  addAotmicItem("Thống kê Xổ số",2000,"TKXSQBI","8579");
+break;
+case 212:
+  addAotmicItem("Kết quả mới nhất",2000,"XSQNM","8179");
+  addAotmicItem("Kết quả trực tiếp",2000,"XSQNM","8579");
+  addAotmicItem("Thống kê Xổ số",2000,"TKXSQNA","8579");
+break;
+case 213:
+  addAotmicItem("Kết quả mới nhất",2000,"XSQNG","8179");
+  addAotmicItem("Kết quả trực tiếp",2000,"XSQNG","8579");
+  addAotmicItem("Thống kê Xổ số",2000,"TKXSQNG","8579");
+break;
+case 214:
+  addAotmicItem("Kết quả mới nhất",2000,"XSQT","8179");
+  addAotmicItem("Kết quả trực tiếp",2000,"XSQT","8579");
+  addAotmicItem("Thống kê Xổ số",2000,"TKXSQTR","8579");
+break;
+case 3:
+  addNewScreenItem("TP.HCM", 301);
+  addNewScreenItem("An Giang", 302);
+  addNewScreenItem("Bạc Liêu", 303);
+  addNewScreenItem("Bến Tre", 304);
+  addNewScreenItem("Bình Dương", 305);
+  addNewScreenItem("Bình Phước", 306);
+  addNewScreenItem("Bình Thuận", 307);
+  addNewScreenItem("Cà Mau", 308);
+  addNewScreenItem("Cần Thơ", 309);
+  addNewScreenItem("Đà Lạt", 310);
+  addNewScreenItem("Đồng Nai", 311);
+  addNewScreenItem("Đồng Tháp", 312);
+  addNewScreenItem("Hậu Giang", 313);
+  addNewScreenItem("Kiên Giang", 314);
+  addNewScreenItem("Long An", 315);
+  addNewScreenItem("Sóc Trăng", 316);
+  addNewScreenItem("Tây Ninh", 317);
+  addNewScreenItem("Tiền Giang", 318);
+  addNewScreenItem("Trà Vinh", 319);
+  addNewScreenItem("Vĩnh Long", 320);
+  addNewScreenItem("Vũng Tàu", 321);
+break;
+case 301:
+  addAotmicItem("Kết quả mới nhất",2000,"XSHCM","8179");
+  addAotmicItem("Kết quả trực tiếp",2000,"XSHCM","8579");
+  addAotmicItem("Thống kê Xổ số",2000,"TKXSHCM","8579");
+break;
+case 302:
+  addAotmicItem("Kết quả mới nhất",2000,"XSAG","8179");
+  addAotmicItem("Kết quả trực tiếp",2000,"XSAG","8579");
+  addAotmicItem("Thống kê Xổ số",2000,"TKXSAGIA","8579");
+break;
+case 303:
+  addAotmicItem("Kết quả mới nhất",2000,"XSBL","8179");
+  addAotmicItem("Kết quả trực tiếp",2000,"XSBL","8579");
+  addAotmicItem("Thống kê Xổ số",2000,"TKXSBLI","8579");
+break;
+case 304:
+  addAotmicItem("Kết quả mới nhất",2000,"XSBTR","8179");
+  addAotmicItem("Kết quả trực tiếp",2000,"XSBTR","8579");
+  addAotmicItem("Thống kê Xổ số",2000,"TKXSBTR","8579");
+break;
+case 305:
+  addAotmicItem("Kết quả mới nhất",2000,"XSBD","8179");
+  addAotmicItem("Kết quả trực tiếp",2000,"XSBD","8579");
+  addAotmicItem("Thống kê Xổ số",2000,"TKXSBDU","8579");
+break;
+case 306:
+  addAotmicItem("Kết quả mới nhất",2000,"XSBP","8179");
+  addAotmicItem("Kết quả trực tiếp",2000,"XSBP","8579");
+  addAotmicItem("Thống kê Xổ số",2000,"TKXSBPH","8579");
+break;
+case 307:
+  addAotmicItem("Kết quả mới nhất",2000,"XSBT","8179");
+  addAotmicItem("Kết quả trực tiếp",2000,"XSBT","8579");
+  addAotmicItem("Thống kê Xổ số",2000,"TKXSBTH","8579");
+break;
+case 308:
+  addAotmicItem("Kết quả mới nhất",2000,"XSCM","8179");
+  addAotmicItem("Kết quả trực tiếp",2000,"XSCM","8579");
+  addAotmicItem("Thống kê Xổ số",2000,"TKXSCMA","8579");
+break;
+case 309:
+  addAotmicItem("Kết quả mới nhất",2000,"XSCT","8179");
+  addAotmicItem("Kết quả trực tiếp",2000,"XSCT","8579");
+  addAotmicItem("Thống kê Xổ số",2000,"TKXSCTH","8579");
+break;
+case 310:
+  addAotmicItem("Kết quả mới nhất",2000,"XSDL","8179");
+  addAotmicItem("Kết quả trực tiếp",2000,"XSDL","8579");
+  addAotmicItem("Thống kê Xổ số",2000,"TKXSDLA","8579");
+break;
+case 311:
+  addAotmicItem("Kết quả mới nhất",2000,"XSDN","8179");
+  addAotmicItem("Kết quả trực tiếp",2000,"XSDN","8579");
+  addAotmicItem("Thống kê Xổ số",2000,"TKXSDNAI","8579");
+break;
+case 312:
+  addAotmicItem("Kết quả mới nhất",2000,"XSDT","8179");
+  addAotmicItem("Kết quả trực tiếp",2000,"XSDT","8579");
+  addAotmicItem("Thống kê Xổ số",2000,"TKXSDTHA","8579");
+break;
+case 313:
+  addAotmicItem("Kết quả mới nhất",2000,"XSHG","8179");
+  addAotmicItem("Kết quả trực tiếp",2000,"XSHG","8579");
+  addAotmicItem("Thống kê Xổ số",2000,"TKXSHGI","8579");
+break;
+case 314:
+  addAotmicItem("Kết quả mới nhất",2000,"XSKG","8179");
+  addAotmicItem("Kết quả trực tiếp",2000,"XSKG","8579");
+  addAotmicItem("Thống kê Xổ số",2000,"TKXSKGI","8579");
+break;
+case 315:
+  addAotmicItem("Kết quả mới nhất",2000,"XSLA","8179");
+  addAotmicItem("Kết quả trực tiếp",2000,"XSLA","8579");
+  addAotmicItem("Thống kê Xổ số",2000,"TKXSLAN","8579");
+break;
+case 316:
+  addAotmicItem("Kết quả mới nhất",2000,"XSST","8179");
+  addAotmicItem("Kết quả trực tiếp",2000,"XSST","8579");
+  addAotmicItem("Thống kê Xổ số",2000,"TKXSSTR","8579");
+break;
+case 317:
+  addAotmicItem("Kết quả mới nhất",2000,"XSTN","8179");
+  addAotmicItem("Kết quả trực tiếp",2000,"XSTN","8579");
+  addAotmicItem("Thống kê Xổ số",2000,"TKXSTNIN","8579");
+break;
+case 318:
+  addAotmicItem("Kết quả mới nhất",2000,"XSTG","8179");
+  addAotmicItem("Kết quả trực tiếp",2000,"XSTG","8579");
+  addAotmicItem("Thống kê Xổ số",2000,"TKXSTGI","8579");
+break;
+case 319:
+  addAotmicItem("Kết quả mới nhất",2000,"XSTV","8179");
+  addAotmicItem("Kết quả trực tiếp",2000,"XSTV","8579");
+  addAotmicItem("Thống kê Xổ số",2000,"TKXSTVI","8579");
+break;
+case 320:
+  addAotmicItem("Kết quả mới nhất",2000,"XSVL","8179");
+  addAotmicItem("Kết quả trực tiếp",2000,"XSVL","8579");
+  addAotmicItem("Thống kê Xổ số",2000,"TKXSVLO","8579");
+break;
+case 321:
+  addAotmicItem("Kết quả mới nhất",2000,"XSVT","8179");
+  addAotmicItem("Kết quả trực tiếp",2000,"XSVT","8579");
+break;
+case 4:
+  addNewScreenItem("Xổ số Điện toán 123", 401);
+  addNewScreenItem("Xổ số Điện toán 6x36", 402);
+  addNewScreenItem("Xổ số thần tài 4", 403);
+break;
+case 401:
+  addAotmicItem("Kết quả mới nhất",2000,"XSDT123","8279");
+break;
+case 402:
+  addAotmicItem("Kết quả mới nhất",2000,"XSDT6X","8279");
+break;
+case 403:
+  addAotmicItem("Kết quả mới nhất",2000,"XSDTTT","8279");
+break;
+case 5:
+  addNewScreenItem("Kết quả giải đấu", 501);
+  addNewScreenItem("Kết quả trực tiếp giải đấu", 502);
+  addNewScreenItem("Lịch thi đấu", 503);
+  addNewScreenItem("Bảng xếp hạng", 504);
+  addNewScreenItem("Tỷ lệ cược bóng đá", 505);
+break;
+case 501:
+  addAotmicItem("Premier League",2000,"DBPL","8379");
+  addAotmicItem("Seria – VĐQG Italia",2000,"DBSR","8379");
+  addAotmicItem("La Liga- VĐQG Tây Ban Nha",2000,"DBLL","8379");
+  addAotmicItem("Bundes Liga- VĐQG Đức",2000,"DBBL","8379");
+  addAotmicItem("Ligue1- VĐQG Pháp",2000,"DBL1","8379");
+  addAotmicItem("Champions League Châu Âu",2000,"DBCL","8379");
+  addAotmicItem("Europa League",2000,"DBEL","8379");
+  addAotmicItem("V-League",2000,"DBVN","8379");
+break;
+case 502:
+  addAotmicItem("Premier League",2000,"DBPL","8579");
+  addAotmicItem("SERIA – VĐQG ITALYA",2000,"DBSR","8579");
+  addAotmicItem("La Liga- VĐQG Tây Ban Nha",2000,"DBLL","8579");
+  addAotmicItem("Bundes Liga- VĐQG Đức",2000,"DBBL","8579");
+  addAotmicItem("Ligue1- VĐQG Pháp",2000,"DBL1","8579");
+  addAotmicItem("Champions League Châu Âu",2000,"DBCL","8579");
+  addAotmicItem("Europa League",2000,"DBEL","8579");
+  addAotmicItem("V-League",2000,"DBVN","8579");
+break;
+case 503:
+  addAotmicItem("Premier League",2000,"DBLTDPL","8579");
+  addAotmicItem("Seria – VĐQG Italia",2000,"DBLTDSR","8579");
+  addAotmicItem("La Liga- VĐQG Tây Ban Nha",2000,"DBLTDLL","8579");
+  addAotmicItem("Bundes Liga- VĐQG Đức",2000,"DBLTDBL","8579");
+  addAotmicItem("Ligue1- VĐQG Pháp",2000,"DBLTDL1","8579");
+  addAotmicItem("Champions League Châu Âu",2000,"DBLTDCL","8579");
+  addAotmicItem("Europa League",2000,"DBLTDEL","8579");
+  addAotmicItem("V-League",2000,"DBLTDVN","8579");
+break;
+case 504:
+  addAotmicItem("Premier League",2000,"DBBXHPL","8579");
+  addAotmicItem("Seria – VĐQG Italia",2000,"DBBXHSR","8579");
+  addAotmicItem("La Liga- VĐQG Tây Ban Nha",2000,"DBBXHLL","8579");
+  addAotmicItem("Bundes Liga- VĐQG Đức",2000,"DBBXHBL","8579");
+  addAotmicItem("Ligue1- VĐQG Pháp",2000,"DBBXHL1","8579");
+  addAotmicItem("Champions League Châu Âu",2000,"DBBXHCL","8579");
+  addAotmicItem("Europa League",2000,"DBBXHEL","8579");
+  addAotmicItem("V-League",2000,"DBBXHVN","8579");
+break;
+case 505:
+  addAotmicItem("Bóng đá Anh",2000,"TLCBDA","8379");
+  addAotmicItem("Cúp FA",2000,"TLCFA","8379");
+  addAotmicItem("Bóng đá Ý",2000,"TLCBDY","8379");
+  addAotmicItem("Bóng đá Tây Ban Nha",2000,"TLCBDTBN","8379");
+  addAotmicItem("Bóng đá Đức",2000,"TLCBDD","8379");
+  addAotmicItem("Bóng đá Pháp",2000,"TLCBDP","8379");
+  addAotmicItem("Bóng đá Nhật Bản",2000,"TLCBDNB","8379");
+  addAotmicItem("Bóng đá Hàn Quốc",2000,"TLCBDHQ","8379");
+  addAotmicItem("C1 Châu Âu",2000,"TLCC1","8379");
+  addAotmicItem("C2 Châu Âu",2000,"TLCC2","8379");
+  addAotmicItem("C1 Nam Mỹ",2000,"TLCC1M","8379");
+  addAotmicItem("Giải khác",2000,"TLCGK","8579");
+  addAotmicItem("Kèo động -đang đá",2000,"TLCKD","8579");
+  addAotmicItem("Kèo động-sắp đá",2000,"TLCKD1","8579");
+break;
+case 6:
+  addAotmicItem("Xem số điện thoại",2000,"BSDT","8579");
+  addAotmicItem("Xem ngày sinh",2000,"BNS","8579");
+  addAotmicItem("Xem tên",2000,"BT","8579");
+  addAotmicItem("Xem tình yêu",2000,"BTY","8579");
+  addNewScreenItem("Xem chiều cao", 605);
+  addNewScreenItem("Ngày của bạn", 606);
+  addNewScreenItem("Tuần của bạn", 607);
+  addNewScreenItem("Tháng của bạn", 608);
+break;
+case 605:
+  addAotmicItem("a. Dưới 1m42",2000,"BCC01","8579");
+  addAotmicItem("b. 1m42 - 1m44",2000,"BCC02","8579");
+  addAotmicItem("c. 1m45 - 1m46",2000,"BCC03","8579");
+  addAotmicItem("d. 1m47 - 1m49",2000,"BCC04","8579");
+  addAotmicItem("e. 1m50 - 1m54",2000,"BCC05","8579");
+  addAotmicItem("f. 1m55 - 1m56",2000,"BCC06","8579");
+  addAotmicItem("g. 1m57 - 1m59",2000,"BCC07","8579");
+  addAotmicItem("h. 1m60 - 1m62",2000,"BCC08","8579");
+  addAotmicItem("i. 1m63 - 1m64",2000,"BCC09","8579");
+  addAotmicItem("j. 1m65 - 1m67",2000,"BCC10","8579");
+  addAotmicItem("k. 1m68 - 1m69",2000,"BCC11","8579");
+  addAotmicItem("l. 1m70 - 1m72",2000,"BCC12","8579");
+  addAotmicItem("m. 1m73 - 1m74",2000,"BCC13","8579");
+  addAotmicItem("n. 1m75 - 1m77",2000,"BCC14","8579");
+  addAotmicItem("o. 1m78 - 1m79",2000,"BCC15","8579");
+  addAotmicItem("p. 1m80 - 1m82",2000,"BCC16","8579");
+  addAotmicItem("q. Trên 1m83",2000,"BCC17","8579");
+break;
+case 606:
+  addAotmicItem("Bảo Bình (21/1-19/2)",2000,"NBV","BAOBINH","8579");
+  addAotmicItem("Song Ngư (20/2-20/3)",2000,"NBV","SONGNGU","8579");
+  addAotmicItem("Bạch Dương (21/3-20/4)",2000,"NBV","BACHDUONG","8579");
+  addAotmicItem("Kim Ngưu (21/4-21/5)",2000,"NBV","KIMNGUU","8579");
+  addAotmicItem("Song Tử (22/5-21/6)",2000,"NBV","SONGTU","8579");
+  addAotmicItem("Cự Giải (22/6-22/7)",2000,"NBV","CUGIAI","8579");
+  addAotmicItem("Sư Tử (23/7-22/8)",2000,"NBV","SUTU","8579");
+  addAotmicItem("Xử nữ (23/8-23/9)",2000,"NBV","XUNU","8579");
+  addAotmicItem("Thiên Bình (24/9-23/10)",2000,"NBV","THIENBINH","8579");
+  addAotmicItem("Hổ Cáp (24/10-22/11)",2000,"NBV","HOCAP","8579");
+  addAotmicItem("Nhân Mã (23/11-21/12)",2000,"NBV","NHANMA","8579");
+  addAotmicItem("Ma Kết (22/12-20/01)",2000,"NBV","MAKET","8579");
+break;
+case 607:
+  addAotmicItem("Bảo Bình (21/1-19/2)",2000,"TBV","BAOBINH","8579");
+  addAotmicItem("Song Ngư (20/2-20/3)",2000,"TBV","SONGNGU","8579");
+  addAotmicItem("Bạch Dương (21/3-20/4)",2000,"TBV","BACHDUONG","8579");
+  addAotmicItem("Kim Ngưu (21/4-21/5)",2000,"TBV","KIMNGUU","8579");
+  addAotmicItem("Song Tử (22/5-21/6)",2000,"TBV","SONGTU","8579");
+  addAotmicItem("Cự Giải (22/6-22/7)",2000,"TBV","CUGIAI","8579");
+  addAotmicItem("Sư Tử (23/7-22/8)",2000,"TBV","SUTU","8579");
+  addAotmicItem("Xử nữ (23/8-23/9)",2000,"TBV","XUNU","8579");
+  addAotmicItem("Thiên Bình (24/9-23/10)",2000,"TBV","THIENBINH","8579");
+  addAotmicItem("Hổ Cáp (24/10-22/11)",2000,"TBV","HOCAP","8579");
+  addAotmicItem("Nhân Mã (23/11-21/12)",2000,"TBV","NHANMA","8579");
+  addAotmicItem("Ma Kết (22/12-20/01)",2000,"TBV","MAKET","8579");
+break;
+case 608:
+  addAotmicItem("Bảo Bình (21/1-19/2)",2000,"MBV","BAOBINH","8679");
+  addAotmicItem("Song Ngư (20/2-20/3)",2000,"MBV","SONGNGU","8679");
+  addAotmicItem("Bạch Dương (21/3-20/4)",2000,"MBV","BACHDUONG","8679");
+  addAotmicItem("Kim Ngưu (21/4-21/5)",2000,"MBV","KIMNGUU","8679");
+  addAotmicItem("Song Tử (22/5-21/6)",2000,"MBV","SONGTU","8679");
+  addAotmicItem("Cự Giải (22/6-22/7)",2000,"MBV","CUGIAI","8679");
+  addAotmicItem("Sư Tử (23/7-22/8)",2000,"MBV","SUTU","8679");
+  addAotmicItem("Xử nữ (23/8-23/9)",2000,"MBV","XUNU","8679");
+  addAotmicItem("Thiên Bình (24/9-23/10)",2000,"MBV","THIENBINH","8679");
+  addAotmicItem("Hổ Cáp (24/10-22/11)",2000,"MBV","HOCAP","8679");
+  addAotmicItem("Nhân Mã (23/11-21/12)",2000,"MBV","NHANMA","8679");
+  addAotmicItem("Ma Kết (22/12-20/01)",2000,"MBV","MAKET","8679");
+break;
+case 7:
+  addNewScreenItem("Phong cách cá nhân", 701);
+  addNewScreenItem("Ngũ hành bản mệnh", 702);
+  addNewScreenItem("Ngũ hành tuổi hợp, tuổi kỵ", 703);
+  addNewScreenItem("Màu sắc phù hợp, màu sắc kỵ", 704);
+  addNewScreenItem("Con số phù hợp", 705);
+  addNewScreenItem("Nghề nghiệp phù hợp", 706);
+  addNewScreenItem("Chọn tuổi làm ăn", 707);
+  addNewScreenItem("Chọn hướng nhà", 708);
+  addNewScreenItem("Chọn tuổi vợ chồng", 709);
+break;
+case 701:
+  addAotmicItem("Bảo Bình (21/1-19/2)",2000,"XPT011","8579");
+  addAotmicItem("Song Ngư (20/2-20/3)",2000,"XPT012","8579");
+  addAotmicItem("Bạch Dương (21/3-20/4)",2000,"XPT013","8579");
+  addAotmicItem("Kim Ngưu (21/4-21/5)",2000,"XPT014","8579");
+  addAotmicItem("Song Tử (22/5-21/6)",2000,"XPT015","8579");
+  addAotmicItem("Cự Giải (22/6-22/7)",2000,"XPT016","8579");
+  addAotmicItem("Sư Tử (23/7-22/8)",2000,"XPT017","8579");
+  addAotmicItem("Xử nữ (23/8-23/9)",2000,"XPT018","8579");
+  addAotmicItem("Thiên Bình (24/9-23/10)",2000,"XPT019","8579");
+  addAotmicItem("Hổ Cáp (24/10-22/11)",2000,"XPT0110","8579");
+  addAotmicItem("Nhân Mã (23/11-21/12)",2000,"XPT0111","8579");
+  addAotmicItem("Ma Kết (22/12-20/01)",2000,"XPT0112","8579");
+break;
+case 702:
+  addAotmicItem("Mộc",2000,"XPT021","8579");
+  addAotmicItem("Kim",2000,"XPT022","8579");
+  addAotmicItem("Thủy",2000,"XPT023","8579");
+  addAotmicItem("Hỏa",2000,"XPT024","8579");
+  addAotmicItem("Thổ",2000,"XPT025","8579");
+break;
+case 703:
+  addAotmicItem("Tam hợp",2000,"XPT031","8579");
+  addAotmicItem("Tứ hành xung",2000,"XPT032","8579");
+  addAotmicItem("Tuổi kỵ",2000,"XPT033","8579");
+  addAotmicItem("Ngũ hành tương sinh tương khắc",2000,"XPT034","8579");
+  addAotmicItem("Lục hợp",2000,"XPT035","8579");
+  addAotmicItem("Xung khắc",2000,"XPT036","8579");
+break;
+case 704:
+  addAotmicItem("Mộc",2000,"XPT041","8579");
+  addAotmicItem("Kim",2000,"XPT042","8579");
+  addAotmicItem("Thủy",2000,"XPT043","8579");
+  addAotmicItem("Hỏa",2000,"XPT044","8579");
+  addAotmicItem("Thổ",2000,"XPT045","8579");
+break;
+case 705:
+  addAotmicItem("Tý",2000,"XPT051","8579");
+  addAotmicItem("Sửu",2000,"XPT052","8579");
+  addAotmicItem("Dần",2000,"XPT053","8579");
+  addAotmicItem("Mão",2000,"XPT054","8579");
+  addAotmicItem("Thìn",2000,"XPT055","8579");
+  addAotmicItem("Tỵ",2000,"XPT056","8579");
+  addAotmicItem("Ngọ",2000,"XPT057","8579");
+  addAotmicItem("Mùi",2000,"XPT058","8579");
+  addAotmicItem("Thân",2000,"XPT059","8579");
+  addAotmicItem("Dậu",2000,"XPT060","8579");
+  addAotmicItem("Tuất",2000,"XPT0601","8579");
+  addAotmicItem("Hợi",2000,"XPT0602","8579");
+break;
+case 706:
+  addAotmicItem("Bảo Bình (21/1-19/2)",2000,"XPT061","8579");
+  addAotmicItem("Song Ngư (20/2-20/3)",2000,"XPT062","8579");
+  addAotmicItem("Bạch Dương (21/3-20/4)",2000,"XPT063","8579");
+  addAotmicItem("Kim Ngưu (21/4-21/5)",2000,"XPT064","8579");
+  addAotmicItem("Song Tử (22/5-21/6)",2000,"XPT065","8579");
+  addAotmicItem("Cự Giải (22/6-22/7)",2000,"XPT066","8579");
+  addAotmicItem("Sư Tử (23/7-22/8)",2000,"XPT067","8579");
+  addAotmicItem("Xử nữ (23/8-23/9)",2000,"XPT068","8579");
+  addAotmicItem("Thiên Bình (24/9-23/10)",2000,"XPT069","8579");
+  addAotmicItem("Hổ Cáp (24/10-22/11)",2000,"XPT070","8579");
+  addAotmicItem("Nhân Mã (23/11-21/12)",2000,"XPT0701","8579");
+  addAotmicItem("Ma Kết (22/12-20/01)",2000,"XPT0702","8579");
+break;
+case 707:
+  addAotmicItem("Tý",2000,"XPT071","8579");
+  addAotmicItem("Sửu",2000,"XPT072","8579");
+  addAotmicItem("Dần",2000,"XPT073","8579");
+  addAotmicItem("Mão",2000,"XPT074","8579");
+  addAotmicItem("Thìn",2000,"XPT075","8579");
+  addAotmicItem("Tỵ",2000,"XPT076","8579");
+  addAotmicItem("Ngọ",2000,"XPT077","8579");
+  addAotmicItem("Mùi",2000,"XPT078","8579");
+  addAotmicItem("Thân",2000,"XPT079","8579");
+  addAotmicItem("Dậu",2000,"XPT0791","8579");
+  addAotmicItem("Tuất",2000,"XPT0792","8579");
+  addAotmicItem("Hợi",2000,"XPT0793","8579");
+break;
+case 708:
+  addAotmicItem("Hướng Tây Bắc",2000,"XPT081","8579");
+  addAotmicItem("Hướng Bắc",2000,"XPT082","8579");
+  addAotmicItem("Hướng Đông Bắc",2000,"XPT083","8579");
+  addAotmicItem("Hướng Đông",2000,"XPT084","8579");
+  addAotmicItem("Hướng Đông Nam",2000,"XPT085","8579");
+  addAotmicItem("Hướng Nam",2000,"XPT086","8579");
+  addAotmicItem("Hướng Tây Nam",2000,"XPT087","8579");
+  addAotmicItem("Hướng Tây",2000,"XPT088","8579");
+break;
+case 709:
+  addAotmicItem("Tý",2000,"XPT091","8579");
+  addAotmicItem("Sửu",2000,"XPT092","8579");
+  addAotmicItem("Dần",2000,"XPT093","8579");
+  addAotmicItem("Mão",2000,"XPT094","8579");
+  addAotmicItem("Thìn",2000,"XPT095","8579");
+  addAotmicItem("Tỵ",2000,"XPT096","8579");
+  addAotmicItem("Ngọ",2000,"XPT097","8579");
+  addAotmicItem("Mùi",2000,"XPT098","8579");
+  addAotmicItem("Thân",2000,"XPT099","8579");
+  addAotmicItem("Dậu",2000,"XPT0991","8579");
+  addAotmicItem("Tuất",2000,"XPT0992","8579");
+  addAotmicItem("Hợi",2000,"XPT0993","8579");
+break;
+case 8:
+  addAotmicItem("Chinh phục chàng",2000,"CTG01","8579");
+  addAotmicItem("Chinh phục nàng",2000,"CTG02","8579");
+  addAotmicItem("Điều chàng thích",2000,"CTG03","8579");
+  addAotmicItem("Điều chàng ghét",2000,"CTG04","8579");
+  addAotmicItem("Điều nàng thích",2000,"CTG05","8579");
+  addAotmicItem("Điều nàng ghét",2000,"CTG06","8579");
+  addAotmicItem("Lời hay gửi chàng",2000,"CTG07","8579");
+  addAotmicItem("Lời hay gửi nàng",2000,"CTG08","8579");
+break;
+case 9:
+  addAotmicItem("Lich âm dương Mới nhất",2000,"AD","8279");
+  addNewScreenItem("Lịch vạn sự", 902);
+  addNewScreenItem("Lịch xuất hành", 903);
+  addAotmicItem("Ngày cưới đẹp (âm lịch)",2000,"XHNC","8679");
+break;
+case 902:
+  addAotmicItem("Giờ hoàng đạo - hắc đạo",2000,"VSHD","8279");
+  addAotmicItem("Tuổi xung khắc - Hướng Xuất hành",2000,"VSXK","8279");
+  addAotmicItem("Việc nên làm - Việc kiêng kỵ",2000,"VSNL","8279");
+break;
+case 903:
+  addAotmicItem("Theo Khổng Minh",2000,"XHKM","8279");
+  addAotmicItem("Theo Lý Thuần Phong",2000,"XHLTP","8379");
+break;
+case 10:
+  addAotmicItem("Giá Vàng Mới nhất",2000,"GV","8279");
+  addAotmicItem("Tiền tệ	Mới nhất",2000,"TT","8279");
+  addNewScreenItem("Xe máy", 1003);
+  addNewScreenItem("Ô tô", 1004);
+  addNewScreenItem("Điện thoại", 1005);
+  addNewScreenItem("Thiết bị số", 1006);
+break;
+case 1003:
+  addAotmicItem("Dưới 20 triệu",2000,"X1","8579");
+  addAotmicItem("Từ 20-30 triệu",2000,"X2","8579");
+  addAotmicItem("Từ 30-50 triệu",2000,"X3","8579");
+break;
+case 1004:
+  addAotmicItem("Honda",2000,"O1","8579");
+  addAotmicItem("Toyota",2000,"O2","8579");
+  addAotmicItem("Kia",2000,"O3","8579");
+  addAotmicItem("Hyndai",2000,"O4","8579");
+  addAotmicItem("Mazda",2000,"O5","8579");
+  addAotmicItem("Ford",2000,"O6","8579");
+break;
+case 1005:
+  addAotmicItem("Dưới 2 triệu",2000,"D1","8579");
+  addAotmicItem("Từ 2-3 triệu",2000,"D2","8579");
+  addAotmicItem("Từ 3-5 triệu",2000,"D3","8579");
+break;
+case 1006:
+  addAotmicItem("Ti Vi màn hình Led",2000,"TB1","8579");
+  addAotmicItem("Dàn máy nghe nhạc",2000,"TB2","8579");
+  addAotmicItem("Máy Radio Cassette",2000,"TB3","8579");
+  addAotmicItem("Đầu đĩa DVD",2000,"TB4","8579");
+  addAotmicItem("Dàn loa nghe nhạc",2000,"TB5","8579");
+  addAotmicItem("Micro",2000,"TB6","8579");
+break;
+case 11:
+  addAotmicItem("Tin thời tiết",2000,"TTT","8279");
+  addAotmicItem("Dự báo thời tiết",2000,"TDB","8579");
+  addAotmicItem("Tin hot",2000,"THO","8579");
+  addAotmicItem("Tin showbiz",2000,"TSB","8579");
+  addAotmicItem("Tin nông nghiệp",2000,"TNN","8579");
+break;
+case 12:
+  addAotmicItem("Truyện cười",2000,"GTTC","8579");
+  addAotmicItem("Chuyện lạ bốn phương",2000,"GTCL","8579");
+  addAotmicItem("Tình yêu",2000,"GTTY","8579");
+  addNewScreenItem("Danh ngôn", 1204);
+break;
+case 1204:
+  addAotmicItem("Tình yêu",2000,"GTDNTY","8579");
+  addAotmicItem("Tình bạn",2000,"GTDNTB","8579");
+  addAotmicItem("Cuộc sống",2000,"GTDNCS","8579");
+  addAotmicItem("Tiền bạc",2000,"GTDNBT","8579");
+  addAotmicItem("Công việc",2000,"GTDNCV","8579");
+break;
+case 13:
+  addAotmicItem("Tư vấn làm đẹp",2000,"TVLD","8579");
+  addAotmicItem("Mẹ dạy con",2000,"TVCM","8579");
+  addNewScreenItem("Ý nghĩa màu sắc", 1303);
+  addNewScreenItem("Bí quyết nấu ăn", 1304);
+  addNewScreenItem("Chăm sóc da", 1305);
+  addNewScreenItem("Chăm sóc tóc", 1306);
+  addNewScreenItem("Tặng quà", 1307);
+break;
+case 1303:
+  addAotmicItem("Màu đen",2000,"TVMS01","8579");
+  addAotmicItem("Màu trắng",2000,"TVMS02","8579");
+  addAotmicItem("Màu đỏ",2000,"TVMS03","8579");
+  addAotmicItem("Màu cam",2000,"TVMS04","8579");
+  addAotmicItem("Màu vàng",2000,"TVMS05","8579");
+  addAotmicItem("Màu tím",2000,"TVMS06","8579");
+  addAotmicItem("Màu xanh dương",2000,"TVMS07","8579");
+  addAotmicItem("Màu xanh lá cây",2000,"TVMS08","8579");
+break;
+case 1304:
+  addAotmicItem("Sử dụng chuối chín",2000,"TVNA01","8579");
+  addAotmicItem("Rán cá ngon",2000,"TVNA02","8579");
+  addAotmicItem("Cách nấu sữa tươi",2000,"TVNA03","8579");
+  addAotmicItem("Cách chế biến rau quả",2000,"TVNA04","8579");
+  addAotmicItem("Thịt đông lạnh",2000,"TVNA05","8579");
+  addAotmicItem("Dùng muối chế biến",2000,"TVNA06","8579");
+  addAotmicItem("Cách luộc mì",2000,"TVNA07","8579");
+  addAotmicItem("Dùng dầu mỡ",2000,"TVNA08","8579");
+  addAotmicItem("Dùng xì dầu",2000,"TVNA09","8579");
+  addAotmicItem("Cách nêm gia vị",2000,"TVNA10","8579");
+  addAotmicItem("Dùng nước khi chiên xào",2000,"TVNA11","8579");
+  addAotmicItem("Làm món nướng",2000,"TVNA12","8579");
+  addAotmicItem("Chế biến nấm",2000,"TVNA13","8579");
+  addAotmicItem("Nướng bánh",2000,"TVNA14","8579");
+  addAotmicItem("Bảo quản trứng luộc",2000,"TVNA15","8579");
+  addAotmicItem("Luộc khoai tây",2000,"TVNA16","8579");
+  addAotmicItem("Rửa chảo cháy",2000,"TVNA17","8579");
+  addAotmicItem("Dùng cà chua",2000,"TVNA18","8579");
+  addAotmicItem("Cách khử mùi",2000,"TVNA19","8579");
+  addAotmicItem("Rán trứng",2000,"TVNA20","8579");
+  addAotmicItem("Dùng gừng",2000,"TVNA21","8579");
+  addAotmicItem("Dùng mù tạt",2000,"TVNA22","8579");
+  addAotmicItem("Mua thịt trâu bò",2000,"TVNA23","8579");
+  addAotmicItem("Chọn gà",2000,"TVNA24","8579");
+  addAotmicItem("Chọn thịt gà",2000,"TVNA25","8579");
+  addAotmicItem("Chọn thịt lợn",2000,"TVNA26","8579");
+  addAotmicItem("Chọn cá tươi",2000,"TVNA27","8579");
+  addAotmicItem("Cá chiên tẩm bột",2000,"TVNA28","8579");
+  addAotmicItem("Cá nướng thơm ngon",2000,"TVNA29","8579");
+break;
+case 1305:
+  addAotmicItem("Da thường",2000,"TVVDV01","8579");
+  addAotmicItem("Da hỗn hợp",2000,"TVVDV02","8579");
+  addAotmicItem("Da mụn",2000,"TVVDV03","8579");
+  addAotmicItem("Da khô",2000,"TVVDV04","8579");
+  addAotmicItem("Da nhờn",2000,"TVVDV05","8579");
+break;
+case 1306:
+  addAotmicItem("Tóc dầu",2000,"TVVTV01","8579");
+  addAotmicItem("Tóc hư tổn",2000,"TVVTV02","8579");
+  addAotmicItem("Tóc rụng",2000,"TVVTV03","8579");
+  addAotmicItem("Tóc bị gàu",2000,"TVVTV04","8579");
+break;
+case 1307:
+  addAotmicItem("Quà tặng bạn trai",2000,"TVQTV01","8579");
+  addAotmicItem("Quà tặng bạn gái",2000,"TVQTV02","8579");
+  addAotmicItem("Quà tặng mẹ",2000,"TVQTV03","8579");
+break;
+case 14:
+  addNewScreenItem("Sức khỏe tình dục", 1401);
+  addNewScreenItem("Sức khỏe giới tính", 1402);
+  addNewScreenItem("Sức khỏe sinh sản", 1403);
+  addNewScreenItem("Bài thuốc dân gian", 1404);
+break;
+case 1401:
+  addAotmicItem("Lần đầu tiên quan hệ",2000,"SKTD01","8579");
+  addAotmicItem("Làm mới mỗi lần yêu",2000,"SKTD02","8579");
+  addAotmicItem("Bạn sẵn sàng quan hệ chưa?",2000,"SKTD03","8579");
+  addAotmicItem("Đau khi làm chuyện ấy",2000,"SKTD04","8579");
+  addAotmicItem("Các địa điểm yêu mới lạ",2000,"SKTD05","8579");
+  addAotmicItem("Tư thế khiến nàng hưng phấn",2000,"SKTD06","8579");
+  addAotmicItem("Chàng sợ gì khi yêu",2000,"SKTD07","8579");
+  addAotmicItem("Nàng sợ gì khi yêu",2000,"SKTD08","8579");
+  addAotmicItem("Làm sao để nàng lên đỉnh",2000,"SKTD09","8579");
+  addAotmicItem("Biểu hiện khi phụ nữ lên đỉnh",2000,"SKTD10","8579");
+  addAotmicItem("Điều nên nói khi yêu",2000,"SKTD11","8579");
+  addAotmicItem("Điều nên nói về tình dục",2000,"SKTD12","8579");
+  addAotmicItem("Chuyện ấy diễn ra tốt hơn",2000,"SKTD13","8579");
+  addAotmicItem("Điều khiến nàng sợ khi yêu",2000,"SKTD14","8579");
+  addAotmicItem("Bí quyết xâm nhập vùng cấm địa",2000,"SKTD15","8579");
+  addAotmicItem("Nàng nghĩ gì khi yêu?",2000,"SKTD16","8579");
+  addAotmicItem("Hành động làm nàng ngất ngây",2000,"SKTD17","8579");
+  addAotmicItem("Giúp cuộc yêu được trọn vẹn",2000,"SKTD18","8579");
+  addAotmicItem("Dạo đầu hoàn hảo khi yêu",2000,"SKTD19","8579");
+  addAotmicItem("Những thắc mắc khi yêu",2000,"SKTD20","8579");
+  addAotmicItem("Để yêu thật gợi tình",2000,"SKTD21","8579");
+break;
+case 1402:
+  addAotmicItem("Để cậu nhỏ luôn khỏe mạnh",2000,"SKGT01","8579");
+  addAotmicItem("Thói quen gây vô sinh",2000,"SKGT02","8579");
+  addAotmicItem("Tư thế khiến ngực chảy xệ",2000,"SKGT03","8579");
+  addAotmicItem("Lưu ý khi sử dụng băng vệ sinh",2000,"SKGT04","8579");
+  addAotmicItem("Lợi ích của quan hệ tình dục",2000,"SKGT05","8579");
+  addAotmicItem("Yếu tố quan trọng trong tình yêu",2000,"SKGT06","8579");
+  addAotmicItem("Chiêu giúp bạn hạ gục chàng",2000,"SKGT07","8579");
+  addAotmicItem("Chiêu giúp bạn hạ gục nàng",2000,"SKGT08","8579");
+  addAotmicItem("Để chuyện ấy được chuyên nghiệp",2000,"SKGT09","8579");
+  addAotmicItem("Thay đổi tuổi dậy thì ở bạn gái?",2000,"SKGT10","8579");
+  addAotmicItem("Thay đổi tuổi dậy thì ở bạn trai?",2000,"SKGT11","8579");
+  addAotmicItem("Dinh dưỡng cho bạn gái tuổi dậy thì",2000,"SKGT12","8579");
+  addAotmicItem("Sự cần thiết phải nói về tình dục",2000,"SKGT13","8579");
+  addAotmicItem("Những yếu tố cần cho tình yêu",2000,"SKGT14","8579");
+  addAotmicItem("Suy nghĩ sai lầm về tình dục",2000,"SKGT15","8579");
+  addAotmicItem("Tình yêu được quan tâm nhất?",2000,"SKGT16","8579");
+  addAotmicItem("Tới đỉnh hay chưa tới đỉnh",2000,"SKGT17","8579");
+  addAotmicItem("Làm sao để trên bảo dưới nghe?",2000,"SKGT18","8579");
+  addAotmicItem("Làm sao để biết còn hay mất?",2000,"SKGT19","8579");
+  addAotmicItem("Thắc mắc về kích cỡ của chàng?",2000,"SKGT20","8579");
+  addAotmicItem("Điều không nên nói với nàng?",2000,"SKGT21","8579");
+  addAotmicItem("Điều không nên nói với chàng",2000,"SKGT22","8579");
+break;
+case 1403:
+  addAotmicItem("Các biện pháp tránh thai tốt nhất",2000,"SKSS01","8579");
+  addAotmicItem("Thực phẩm nên và không nên kỳ đén đỏ",2000,"SKSS02","8579");
+  addAotmicItem("Thoát khỏi chuột rút ngày "đèn đỏ"",2000,"SKSS03","8579");
+  addAotmicItem("Cách dụng bao cao su sai bét",2000,"SKSS04","8579");
+  addAotmicItem("Lý do không ngờ khiến mẹ chậm thai",2000,"SKSS05","8579");
+  addAotmicItem("Hiện tượng xuất hiện khi ngừng thuốc tránh thai",2000,"SKSS06","8579");
+  addAotmicItem("Ăn gì để giảm xuất tinh sớm",2000,"SKSS07","8579");
+  addAotmicItem("Cách tính ngày rụng trứng để có thai",2000,"SKSS08","8579");
+  addAotmicItem("8 việc cải thiện chất lượng tinh trùng",2000,"SKSS09","8579");
+  addAotmicItem("9 "thủ phạm" khiến nam vô sinh",2000,"SKSS10","8579");
+break;
+case 1404:
+  addAotmicItem("Thuốc hay từ cây Đào",2000,"SKDG01","8579");
+  addAotmicItem("Thuốc hay chữa đau lưng",2000,"SKDG02","8579");
+  addAotmicItem("Thuốc hay chữa liệt dương",2000,"SKDG03","8579");
+  addAotmicItem("Bài thuốc hay từ củ cải",2000,"SKDG04","8579");
+  addAotmicItem("Thuốc quý từ rau ngố",2000,"SKDG05","8579");
+  addAotmicItem("Thuốc chữa biếng ăn ở trẻ nhỏ",2000,"SKDG06","8579");
+  addAotmicItem("Thuốc chữa phong thấp",2000,"SKDG07","8579");
+  addAotmicItem("Thuốc nam chữa bệnh thủy đậu",2000,"SKDG08","8579");
+  addAotmicItem("Bài thuốc hay từ hạt vừng",2000,"SKDG09","8579");
+  addAotmicItem("Bài thuốc hay từ quả chanh",2000,"SKDG10","8579");
+  addAotmicItem("Bài thuốc hay chữa bứu cổ",2000,"SKDG11","8579");
+  addAotmicItem("Bài thuốc hay chữa hôi miệng",2000,"SKDG12","8579");
+  addAotmicItem("Bài thuốc hay vừng đen",2000,"SKDG13","8579");
+  addAotmicItem("Các bài thuốc hay từ sữa",2000,"SKDG14","8579");
+  addAotmicItem("Thuốc nam chữa cảm cúm",2000,"SKDG15","8579");
+  addAotmicItem("Thuốc nam chữa viêm họng",2000,"SKDG16","8579");
+  addAotmicItem("Bài thuộc trị bệnh đơn giản",2000,"SKDG17","8579");
+  addAotmicItem("Bài thuốc hay từ bưởi",2000,"SKDG18","8579");
+  addAotmicItem("Bài thuốc quý từ cau",2000,"SKDG19","8579");
+  addAotmicItem("Thuốc hay từ cà chua",2000,"SKDG20","8579");
+  addAotmicItem("Thuốc hay từ quýt gai",2000,"SKDG21","8579");
+  addAotmicItem("Thuốc quý từ mộc nhỉ",2000,"SKDG22","8579");
+  addAotmicItem("Thuốc hay từ rau diếp",2000,"SKDG23","8579");
+  addAotmicItem("Thuốc hay từ ớt",2000,"SKDG24","8579");
+  addAotmicItem("Thuốc hay từ cây sen",2000,"SKDG25","8579");
+  addAotmicItem("Thuốc hay chữa gan mật",2000,"SKDG26","8579");
+  addAotmicItem("Thuốc hay chữa vết dạ dày",2000,"SKDG27","8579");
+  addAotmicItem("Thuốc chữa dạ dày hiệu nghiệm",2000,"SKDG28","8579");
+  addAotmicItem("Thuốc trị táo bón hiệu quả",2000,"SKDG29","8579");
+  addAotmicItem("Thuốc hay từ nghệ vàng",2000,"SKDG30","8579");
+break;
+case 15:
+  addNewScreenItem("Số điện thoại Taxi", 1501);
+  addNewScreenItem("Tìm bệnh viện", 1502);
+  addNewScreenItem("Đặc sản", 1503);
+  addNewScreenItem("Địa điểm du lịch", 1504);
+break;
+case 1501:
+  addAotmicItem("TP.HCM",2000,"TXSG","8579");
+  addAotmicItem("Hà Nội",2000,"TXHN","8579");
+  addAotmicItem("Đà Nẵng",2000,"TXDN","8579");
+  addAotmicItem("Nha Trang",2000,"TXNT","8579");
+  addAotmicItem("Huế",2000,"TXTH","8579");
+  addAotmicItem("Cần Thơ",2000,"TXCT","8579");
+  addAotmicItem("Hải Phòng",2000,"TXHP","8579");
+  addAotmicItem("Vũng Tàu",2000,"TXVT","8579");
+  addAotmicItem("Hội An",2000,"TXHA","8579");
+  addAotmicItem("Quảng Ninh",2000,"TXQN","8579");
+  addAotmicItem("Đà lạt",2000,"TXDL","8579");
+  addAotmicItem("Đồng Nai",2000,"TXDI","8579");
+  addAotmicItem("Bình Dương",2000,"TXBD","8579");
+  addAotmicItem("Hải Dương",2000,"TXHD","8579");
+  addAotmicItem("Đồng Tháp",2000,"TXDT","8579");
+  addAotmicItem("Quảng Ngãi",2000,"TXQI","8579");
+  addAotmicItem("Lai Châu",2000,"TXLC","8579");
+  addAotmicItem("Lào Cai",2000,"TXLI","8579");
+  addAotmicItem("Hà Nam",2000,"TXHM","8579");
+  addAotmicItem("Ninh Bình",2000,"TXNB","8579");
+break;
+case 1502:
+  addAotmicItem("TP.HCM",2000,"BVSG","8579");
+  addAotmicItem("Hà Nội",2000,"BVHN","8579");
+  addAotmicItem("Đà Nẵng",2000,"BVDN","8579");
+  addAotmicItem("Nha Trang",2000,"BVNT","8579");
+  addAotmicItem("Huế",2000,"BVTH","8579");
+  addAotmicItem("Cần Thơ",2000,"BVCT","8579");
+  addAotmicItem("Hải Phòng",2000,"BVHP","8579");
+  addAotmicItem("Vũng Tàu",2000,"BVVT","8579");
+  addAotmicItem("Hội An",2000,"BVHA","8579");
+  addAotmicItem("Quảng Ninh",2000,"BVQN","8579");
+  addAotmicItem("Đà lạt",2000,"BVDL","8579");
+  addAotmicItem("Đồng Nai",2000,"BVDI","8579");
+  addAotmicItem("Bình Dương",2000,"BVBD","8579");
+  addAotmicItem("Hải Dương",2000,"BVHD","8579");
+  addAotmicItem("Đồng Tháp",2000,"BVDT","8579");
+  addAotmicItem("Quảng Ngãi",2000,"BVQI","8579");
+  addAotmicItem("Lai Châu",2000,"BVLC","8579");
+  addAotmicItem("Lào Cai",2000,"BVLI","8579");
+  addAotmicItem("Hà Nam",2000,"BVHM","8579");
+  addAotmicItem("Ninh Bình",2000,"BVNB","8579");
+break;
+case 1503:
+  addAotmicItem("TP.HCM",2000,"DSSG","8579");
+  addAotmicItem("Hà Nội",2000,"DSHN","8579");
+  addAotmicItem("Đà Nẵng",2000,"DSDN","8579");
+  addAotmicItem("Nha Trang",2000,"DSNT","8579");
+  addAotmicItem("Huế",2000,"DSTH","8579");
+  addAotmicItem("Cần Thơ",2000,"DSCT","8579");
+  addAotmicItem("Hải Phòng",2000,"DSHP","8579");
+  addAotmicItem("Vũng Tàu",2000,"DSVT","8579");
+  addAotmicItem("Hội An",2000,"DSHA","8579");
+  addAotmicItem("Quảng Ninh",2000,"DSQN","8579");
+  addAotmicItem("Đà lạt",2000,"DSDL","8579");
+  addAotmicItem("Đồng Nai",2000,"DSDI","8579");
+  addAotmicItem("Bình Dương",2000,"DSBD","8579");
+  addAotmicItem("Hải Dương",2000,"DSHD","8579");
+  addAotmicItem("Đồng Tháp",2000,"DSDT","8579");
+  addAotmicItem("Quảng Ngãi",2000,"DSQI","8579");
+  addAotmicItem("Lai Châu",2000,"DSLC","8579");
+  addAotmicItem("Lào Cai",2000,"DSLI","8579");
+  addAotmicItem("Hà Nam",2000,"DSHM","8579");
+  addAotmicItem("Ninh Bình",2000,"DSNB","8579");
+break;
+case 1504:
+  addAotmicItem("TP.HCM",2000,"DLSG","8579");
+  addAotmicItem("Hà Nội",2000,"DLHN","8579");
+  addAotmicItem("Đà Nẵng",2000,"DLDN","8579");
+  addAotmicItem("Nha Trang",2000,"DLNT","8579");
+  addAotmicItem("Huế",2000,"DLTH","8579");
+  addAotmicItem("Cần Thơ",2000,"DLCT","8579");
+  addAotmicItem("Hải Phòng",2000,"DLHP","8579");
+  addAotmicItem("Vũng Tàu",2000,"DLVT","8579");
+  addAotmicItem("Hội An",2000,"DLHA","8579");
+  addAotmicItem("Quảng Ninh",2000,"DLQN","8579");
+  addAotmicItem("Đà lạt",2000,"DLDL","8579");
+  addAotmicItem("Đồng Nai",2000,"DLDI","8579");
+  addAotmicItem("Bình Dương",2000,"DLBD","8579");
+  addAotmicItem("Hải Dương",2000,"DLHD","8579");
+  addAotmicItem("Đồng Tháp",2000,"DLDT","8579");
+  addAotmicItem("Quảng Ngãi",2000,"DLQI","8579");
+  addAotmicItem("Lai Châu",2000,"DLLC","8579");
+  addAotmicItem("Lào Cai",2000,"DLLI","8579");
+  addAotmicItem("Hà Nam",2000,"DLHM","8579");
+  addAotmicItem("Ninh Bình",2000,"DLNB","8579");
+break;

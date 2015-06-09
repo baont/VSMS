@@ -1,0 +1,842 @@
+﻿case 0:
+    addNewScreenItem("Xổ số Miền Bắc", 1);
+    addNewScreenItem("Xổ số Miền Trung", 2);
+    addNewScreenItem("Xổ số Miền Nam", 3);
+    addNewScreenItem("Xổ số Điện toán", 4);
+    addNewScreenItem("Bóng đá", 5);
+    addNewScreenItem("Xem vui vui", 6);
+    addNewScreenItem("Phong thủy", 7);
+    addNewScreenItem("Tình yêu", 8);
+    addNewScreenItem("Lịch", 9);
+    addNewScreenItem("Giá cả", 10);
+    addNewScreenItem("Tin tức", 11);
+    addNewScreenItem("Giải trí", 12);
+    addNewScreenItem("Tư vấn", 13);
+    addNewScreenItem("Sức khỏe", 14);
+    addNewScreenItem("Tra cứu", 15);
+    break;
+case 1:
+    addNewScreenItem("Miền Bắc", 101);
+    break;
+case 101:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSMBJAV JAVA", "8179");
+    addAotmicItem("Kết quả trực tiếp", 2000, "VMSMS XSMBJAV JAVA", "8579");
+    addAotmicItem("Xuất hiện nhiều nhất trong 30 ngày", 2000, "VMSMS TKMAX30JAV JAVA", "8579");
+    addAotmicItem("Xuất hiện ít nhất trong 30 ngày", 2000, "VMSMS TKMIN30JAV JAVA", "8579");
+    addAotmicItem("Đầu xuất hiện trong 30 ngày", 2000, "VMSMS TKDAU30JAV JAVA", "8579");
+    addAotmicItem("Đuôi xuất hiện trong 30 ngày", 2000, "VMSMS TKCUOI30JAV JAVA", "8579");
+    addAotmicItem("Thống kê Xổ số", 2000, "VMSMS TKXSMBJAV JAVA", "8579");
+    addAotmicItem("Thống kê VIP XSMB", 2000, "VMSMS TKXSSCMBJAV JAVA", "8779");
+    break;
+case 2:
+    addNewScreenItem("Bình Định", 201);
+    addNewScreenItem("Đà Nẵng", 202);
+    addNewScreenItem("Đăk Lăk", 203);
+    addNewScreenItem("Đăk Nông", 204);
+    addNewScreenItem("Gia Lai", 205);
+    addNewScreenItem("Huế", 206);
+    addNewScreenItem("Khánh Hòa", 207);
+    addNewScreenItem("Kon Tum", 208);
+    addNewScreenItem("Ninh Thuận", 209);
+    addNewScreenItem("Phú Yên", 210);
+    addNewScreenItem("Quảng Bình", 211);
+    addNewScreenItem("Quảng Nam", 212);
+    addNewScreenItem("Quảng Ngãi", 213);
+    addNewScreenItem("Quảng Trị", 214);
+    break;
+case 201:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSBDIJAV JAVA", "8179");
+    addAotmicItem("Kết quả trực tiếp", 2000, "VMSMS XSBDIJAV JAVA", "8579");
+    addAotmicItem("Thống kê Xổ số", 2000, "VMSMS TKXSBDIJAV JAVA", "8579");
+    break;
+case 202:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSDNAJAV JAVA", "8179");
+    addAotmicItem("Kết quả trực tiếp", 2000, "VMSMS XSDNAJAV JAVA", "8579");
+    addAotmicItem("Thống kê Xổ số", 2000, "VMSMS TKXSDNAJAV JAVA", "8579");
+    break;
+case 203:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSDLKJAV JAVA", "8179");
+    addAotmicItem("Kết quả trực tiếp", 2000, "VMSMS XSDLKJAV JAVA", "8579");
+    addAotmicItem("Thống kê Xổ số", 2000, "VMSMS TKXSDLKJAV JAVA", "8579");
+    break;
+case 204:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSDNOJAV JAVA", "8179");
+    addAotmicItem("Kết quả trực tiếp", 2000, "VMSMS XSDNOJAV JAVA", "8579");
+    addAotmicItem("Thống kê Xổ số", 2000, "VMSMS TKXSDNOJAV JAVA", "8579");
+    break;
+case 205:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSGLJAV JAVA", "8179");
+    addAotmicItem("Kết quả trực tiếp", 2000, "VMSMS XSGLJAV JAVA", "8579");
+    addAotmicItem("Thống kê Xổ số", 2000, "VMSMS TKXSGLAJAV JAVA", "8579");
+    break;
+case 206:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSTTHJAV JAVA", "8179");
+    addAotmicItem("Kết quả trực tiếp", 2000, "VMSMS XSTTHJAV JAVA", "8579");
+    addAotmicItem("Thống kê Xổ số", 2000, "VMSMS TKXSHUEJAV JAVA", "8579");
+    break;
+case 207:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSKHJAV JAVA", "8179");
+    addAotmicItem("Kết quả trực tiếp", 2000, "VMSMS XSKHJAV JAVA", "8579");
+    addAotmicItem("Thống kê Xổ số", 2000, "VMSMS TKXSKHJAV JAVA", "8579");
+    break;
+case 208:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSKTJAV JAVA", "8179");
+    addAotmicItem("Kết quả trực tiếp", 2000, "VMSMS XSKTJAV JAVA", "8579");
+    addAotmicItem("Thống kê Xổ số", 2000, "VMSMS TKXSKTUJAV JAVA", "8579");
+    break;
+case 209:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSNTJAV JAVA", "8179");
+    addAotmicItem("Kết quả trực tiếp", 2000, "VMSMS XSNTJAV JAVA", "8579");
+    addAotmicItem("Thống kê Xổ số", 2000, "VMSMS TKXSNTHJAV JAVA", "8579");
+    break;
+case 210:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSPYJAV JAVA", "8179");
+    addAotmicItem("Kết quả trực tiếp", 2000, "VMSMS XSPYJAV JAVA", "8579");
+    addAotmicItem("Thống kê Xổ số", 2000, "VMSMS TKXSPHYJAV JAVA", "8579");
+    break;
+case 211:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSQBJAV JAVA", "8179");
+    addAotmicItem("Kết quả trực tiếp", 2000, "VMSMS XSQBJAV JAVA", "8579");
+    addAotmicItem("Thống kê Xổ số", 2000, "VMSMS TKXSQBIJAV JAVA", "8579");
+    break;
+case 212:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSQNMJAV JAVA", "8179");
+    addAotmicItem("Kết quả trực tiếp", 2000, "VMSMS XSQNMJAV JAVA", "8579");
+    addAotmicItem("Thống kê Xổ số", 2000, "VMSMS TKXSQNAJAV JAVA", "8579");
+    break;
+case 213:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSQNGJAV JAVA", "8179");
+    addAotmicItem("Kết quả trực tiếp", 2000, "VMSMS XSQNGJAV JAVA", "8579");
+    addAotmicItem("Thống kê Xổ số", 2000, "VMSMS TKXSQNGJAV JAVA", "8579");
+    break;
+case 214:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSQTJAV JAVA", "8179");
+    addAotmicItem("Kết quả trực tiếp", 2000, "VMSMS XSQTJAV JAVA", "8579");
+    addAotmicItem("Thống kê Xổ số", 2000, "VMSMS TKXSQTRJAV JAVA", "8579");
+    break;
+case 3:
+    addNewScreenItem("TP.HCM", 301);
+    addNewScreenItem("An Giang", 302);
+    addNewScreenItem("Bạc Liêu", 303);
+    addNewScreenItem("Bến Tre", 304);
+    addNewScreenItem("Bình Dương", 305);
+    addNewScreenItem("Bình Phước", 306);
+    addNewScreenItem("Bình Thuận", 307);
+    addNewScreenItem("Cà Mau", 308);
+    addNewScreenItem("Cần Thơ", 309);
+    addNewScreenItem("Đà Lạt", 310);
+    addNewScreenItem("Đồng Nai", 311);
+    addNewScreenItem("Đồng Tháp", 312);
+    addNewScreenItem("Hậu Giang", 313);
+    addNewScreenItem("Kiên Giang", 314);
+    addNewScreenItem("Long An", 315);
+    addNewScreenItem("Sóc Trăng", 316);
+    addNewScreenItem("Tây Ninh", 317);
+    addNewScreenItem("Tiền Giang", 318);
+    addNewScreenItem("Trà Vinh", 319);
+    addNewScreenItem("Vĩnh Long", 320);
+    addNewScreenItem("Vũng Tàu", 321);
+    break;
+case 301:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSHCMJAV JAVA", "8179");
+    addAotmicItem("Kết quả trực tiếp", 2000, "VMSMS XSHCMJAV JAVA", "8579");
+    addAotmicItem("Thống kê Xổ số", 2000, "VMSMS TKXSHCMJAV JAVA", "8579");
+    break;
+case 302:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSAGJAV JAVA", "8179");
+    addAotmicItem("Kết quả trực tiếp", 2000, "VMSMS XSAGJAV JAVA", "8579");
+    addAotmicItem("Thống kê Xổ số", 2000, "VMSMS TKXSAGIAJAV JAVA", "8579");
+    break;
+case 303:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSBLJAV JAVA", "8179");
+    addAotmicItem("Kết quả trực tiếp", 2000, "VMSMS XSBLJAV JAVA", "8579");
+    addAotmicItem("Thống kê Xổ số", 2000, "VMSMS TKXSBLIJAV JAVA", "8579");
+    break;
+case 304:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSBTRJAV JAVA", "8179");
+    addAotmicItem("Kết quả trực tiếp", 2000, "VMSMS XSBTRJAV JAVA", "8579");
+    addAotmicItem("Thống kê Xổ số", 2000, "VMSMS TKXSBTRJAV JAVA", "8579");
+    break;
+case 305:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSBDJAV JAVA", "8179");
+    addAotmicItem("Kết quả trực tiếp", 2000, "VMSMS XSBDJAV JAVA", "8579");
+    addAotmicItem("Thống kê Xổ số", 2000, "VMSMS TKXSBDUJAV JAVA", "8579");
+    break;
+case 306:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSBPJAV JAVA", "8179");
+    addAotmicItem("Kết quả trực tiếp", 2000, "VMSMS XSBPJAV JAVA", "8579");
+    addAotmicItem("Thống kê Xổ số", 2000, "VMSMS TKXSBPHJAV JAVA", "8579");
+    break;
+case 307:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSBTJAV JAVA", "8179");
+    addAotmicItem("Kết quả trực tiếp", 2000, "VMSMS XSBTJAV JAVA", "8579");
+    addAotmicItem("Thống kê Xổ số", 2000, "VMSMS TKXSBTHJAV JAVA", "8579");
+    break;
+case 308:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSCMJAV JAVA", "8179");
+    addAotmicItem("Kết quả trực tiếp", 2000, "VMSMS XSCMJAV JAVA", "8579");
+    addAotmicItem("Thống kê Xổ số", 2000, "VMSMS TKXSCMAJAV JAVA", "8579");
+    break;
+case 309:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSCTJAV JAVA", "8179");
+    addAotmicItem("Kết quả trực tiếp", 2000, "VMSMS XSCTJAV JAVA", "8579");
+    addAotmicItem("Thống kê Xổ số", 2000, "VMSMS TKXSCTHJAV JAVA", "8579");
+    break;
+case 310:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSDLJAV JAVA", "8179");
+    addAotmicItem("Kết quả trực tiếp", 2000, "VMSMS XSDLJAV JAVA", "8579");
+    addAotmicItem("Thống kê Xổ số", 2000, "VMSMS TKXSDLAJAV JAVA", "8579");
+    break;
+case 311:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSDNJAV JAVA", "8179");
+    addAotmicItem("Kết quả trực tiếp", 2000, "VMSMS XSDNJAV JAVA", "8579");
+    addAotmicItem("Thống kê Xổ số", 2000, "VMSMS TKXSDNAIJAV JAVA", "8579");
+    break;
+case 312:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSDTJAV JAVA", "8179");
+    addAotmicItem("Kết quả trực tiếp", 2000, "VMSMS XSDTJAV JAVA", "8579");
+    addAotmicItem("Thống kê Xổ số", 2000, "VMSMS TKXSDTHAJAV JAVA", "8579");
+    break;
+case 313:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSHGJAV JAVA", "8179");
+    addAotmicItem("Kết quả trực tiếp", 2000, "VMSMS XSHGJAV JAVA", "8579");
+    addAotmicItem("Thống kê Xổ số", 2000, "VMSMS TKXSHGIJAV JAVA", "8579");
+    break;
+case 314:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSKGJAV JAVA", "8179");
+    addAotmicItem("Kết quả trực tiếp", 2000, "VMSMS XSKGJAV JAVA", "8579");
+    addAotmicItem("Thống kê Xổ số", 2000, "VMSMS TKXSKGIJAV JAVA", "8579");
+    break;
+case 315:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSLAJAV JAVA", "8179");
+    addAotmicItem("Kết quả trực tiếp", 2000, "VMSMS XSLAJAV JAVA", "8579");
+    addAotmicItem("Thống kê Xổ số", 2000, "VMSMS TKXSLANJAV JAVA", "8579");
+    break;
+case 316:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSSTJAV JAVA", "8179");
+    addAotmicItem("Kết quả trực tiếp", 2000, "VMSMS XSSTJAV JAVA", "8579");
+    addAotmicItem("Thống kê Xổ số", 2000, "VMSMS TKXSSTRJAV JAVA", "8579");
+    break;
+case 317:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSTNJAV JAVA", "8179");
+    addAotmicItem("Kết quả trực tiếp", 2000, "VMSMS XSTNJAV JAVA", "8579");
+    addAotmicItem("Thống kê Xổ số", 2000, "VMSMS TKXSTNINJAV JAVA", "8579");
+    break;
+case 318:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSTGJAV JAVA", "8179");
+    addAotmicItem("Kết quả trực tiếp", 2000, "VMSMS XSTGJAV JAVA", "8579");
+    addAotmicItem("Thống kê Xổ số", 2000, "VMSMS TKXSTGIJAV JAVA", "8579");
+    break;
+case 319:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSTVJAV JAVA", "8179");
+    addAotmicItem("Kết quả trực tiếp", 2000, "VMSMS XSTVJAV JAVA", "8579");
+    addAotmicItem("Thống kê Xổ số", 2000, "VMSMS TKXSTVIJAV JAVA", "8579");
+    break;
+case 320:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSVLJAV JAVA", "8179");
+    addAotmicItem("Kết quả trực tiếp", 2000, "VMSMS XSVLJAV JAVA", "8579");
+    addAotmicItem("Thống kê Xổ số", 2000, "VMSMS TKXSVLOJAV JAVA", "8579");
+    break;
+case 321:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSVTJAV JAVA", "8179");
+    addAotmicItem("Kết quả trực tiếp", 2000, "VMSMS XSVTJAV JAVA", "8579");
+    break;
+case 4:
+    addNewScreenItem("Xổ số Điện toán 123", 401);
+    addNewScreenItem("Xổ số Điện toán 6x36", 402);
+    addNewScreenItem("Xổ số thần tài 4", 403);
+    break;
+case 401:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSDT123JAV JAVA", "8279");
+    break;
+case 402:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSDT6XJAV JAVA", "8279");
+    break;
+case 403:
+    addAotmicItem("Kết quả mới nhất", 2000, "VMSMS XSDTTTJAV JAVA", "8279");
+    break;
+case 5:
+    addNewScreenItem("Kết quả giải đấu", 501);
+    addNewScreenItem("Kết quả trực tiếp giải đấu", 502);
+    addNewScreenItem("Lịch thi đấu", 503);
+    addNewScreenItem("Bảng xếp hạng", 504);
+    addNewScreenItem("Tỷ lệ cược bóng đá", 505);
+    break;
+case 501:
+    addAotmicItem("Premier League", 2000, "VMSMS DBPLJAV JAVA", "8379");
+    addAotmicItem("Seria – VĐQG Italia", 2000, "VMSMS DBSRJAV JAVA", "8379");
+    addAotmicItem("La Liga- VĐQG Tây Ban Nha", 2000, "VMSMS DBLLJAV JAVA", "8379");
+    addAotmicItem("Bundes Liga- VĐQG Đức", 2000, "VMSMS DBBLJAV JAVA", "8379");
+    addAotmicItem("Ligue1- VĐQG Pháp", 2000, "VMSMS DBL1JAV JAVA", "8379");
+    addAotmicItem("Champions League Châu Âu", 2000, "VMSMS DBCLJAV JAVA", "8379");
+    addAotmicItem("Europa League", 2000, "VMSMS DBELJAV JAVA", "8379");
+    addAotmicItem("V-League", 2000, "VMSMS DBVNJAV JAVA", "8379");
+    break;
+case 502:
+    addAotmicItem("Premier League", 2000, "VMSMS DBPLJAV JAVA", "8579");
+    addAotmicItem("SERIA – VĐQG ITALYA", 2000, "VMSMS DBSRJAV JAVA", "8579");
+    addAotmicItem("La Liga- VĐQG Tây Ban Nha", 2000, "VMSMS DBLLJAV JAVA", "8579");
+    addAotmicItem("Bundes Liga- VĐQG Đức", 2000, "VMSMS DBBLJAV JAVA", "8579");
+    addAotmicItem("Ligue1- VĐQG Pháp", 2000, "VMSMS DBL1JAV JAVA", "8579");
+    addAotmicItem("Champions League Châu Âu", 2000, "VMSMS DBCLJAV JAVA", "8579");
+    addAotmicItem("Europa League", 2000, "VMSMS DBELJAV JAVA", "8579");
+    addAotmicItem("V-League", 2000, "VMSMS DBVNJAV JAVA", "8579");
+    break;
+case 503:
+    addAotmicItem("Premier League", 2000, "VMSMS DBLTDPLJAV JAVA", "8579");
+    addAotmicItem("Seria – VĐQG Italia", 2000, "VMSMS DBLTDSRJAV JAVA", "8579");
+    addAotmicItem("La Liga- VĐQG Tây Ban Nha", 2000, "VMSMS DBLTDLLJAV JAVA", "8579");
+    addAotmicItem("Bundes Liga- VĐQG Đức", 2000, "VMSMS DBLTDBLJAV JAVA", "8579");
+    addAotmicItem("Ligue1- VĐQG Pháp", 2000, "VMSMS DBLTDL1JAV JAVA", "8579");
+    addAotmicItem("Champions League Châu Âu", 2000, "VMSMS DBLTDCLJAV JAVA", "8579");
+    addAotmicItem("Europa League", 2000, "VMSMS DBLTDELJAV JAVA", "8579");
+    addAotmicItem("V-League", 2000, "VMSMS DBLTDVNJAV JAVA", "8579");
+    break;
+case 504:
+    addAotmicItem("Premier League", 2000, "VMSMS DBBXHPLJAV JAVA", "8579");
+    addAotmicItem("Seria – VĐQG Italia", 2000, "VMSMS DBBXHSRJAV JAVA", "8579");
+    addAotmicItem("La Liga- VĐQG Tây Ban Nha", 2000, "VMSMS DBBXHLLJAV JAVA", "8579");
+    addAotmicItem("Bundes Liga- VĐQG Đức", 2000, "VMSMS DBBXHBLJAV JAVA", "8579");
+    addAotmicItem("Ligue1- VĐQG Pháp", 2000, "VMSMS DBBXHL1JAV JAVA", "8579");
+    addAotmicItem("Champions League Châu Âu", 2000, "VMSMS DBBXHCLJAV JAVA", "8579");
+    addAotmicItem("Europa League", 2000, "VMSMS DBBXHELJAV JAVA", "8579");
+    addAotmicItem("V-League", 2000, "VMSMS DBBXHVNJAV JAVA", "8579");
+    break;
+case 505:
+    addAotmicItem("Bóng đá Anh", 2000, "VMSMS TLCBDAJAV JAVA", "8379");
+    addAotmicItem("Cúp FA", 2000, "VMSMS TLCFAJAV JAVA", "8379");
+    addAotmicItem("Bóng đá Ý", 2000, "VMSMS TLCBDYJAV JAVA", "8379");
+    addAotmicItem("Bóng đá Tây Ban Nha", 2000, "VMSMS TLCBDTBNJAV JAVA", "8379");
+    addAotmicItem("Bóng đá Đức", 2000, "VMSMS TLCBDDJAV JAVA", "8379");
+    addAotmicItem("Bóng đá Pháp", 2000, "VMSMS TLCBDPJAV JAVA", "8379");
+    addAotmicItem("Bóng đá Nhật Bản", 2000, "VMSMS TLCBDNBJAV JAVA", "8379");
+    addAotmicItem("Bóng đá Hàn Quốc", 2000, "VMSMS TLCBDHQJAV JAVA", "8379");
+    addAotmicItem("C1 Châu Âu", 2000, "VMSMS TLCC1JAV JAVA", "8379");
+    addAotmicItem("C2 Châu Âu", 2000, "VMSMS TLCC2JAV JAVA", "8379");
+    addAotmicItem("C1 Nam Mỹ", 2000, "VMSMS TLCC1MJAV JAVA", "8379");
+    addAotmicItem("Giải khác", 2000, "VMSMS TLCGKJAV JAVA", "8579");
+    addAotmicItem("Kèo động -đang đá", 2000, "VMSMS TLCKDJAV JAVA", "8579");
+    addAotmicItem("Kèo động-sắp đá", 2000, "VMSMS TLCKD1JAV JAVA", "8579");
+    break;
+case 6:
+    addAotmicItem("Xem số điện thoại", 2000, "VMSMS BSDTJAV JAVA", "8579", 100);
+    addAotmicItem("Xem ngày sinh", 2000, "VMSMS BNSJAV JAVA", "8579", 101);
+    addAotmicItem("Xem tên", 2000, "VMSMS BTJAV JAVA", "8579", 102);
+    addAotmicItem("Xem tình yêu", 2000, "VMSMS BTYJAV JAVA", "8579", 103);
+    addNewScreenItem("Xem chiều cao", 605);
+    addNewScreenItem("Ngày của bạn", 606);
+    addNewScreenItem("Tuần của bạn", 607);
+    addNewScreenItem("Tháng của bạn", 608);
+    break;
+case 605:
+    addAotmicItem("a. Dưới 1m42", 2000, "VMSMS BCC01JAV JAVA", "8579");
+    addAotmicItem("b. 1m42 - 1m44", 2000, "VMSMS BCC02JAV JAVA", "8579");
+    addAotmicItem("c. 1m45 - 1m46", 2000, "VMSMS BCC03JAV JAVA", "8579");
+    addAotmicItem("d. 1m47 - 1m49", 2000, "VMSMS BCC04JAV JAVA", "8579");
+    addAotmicItem("e. 1m50 - 1m54", 2000, "VMSMS BCC05JAV JAVA", "8579");
+    addAotmicItem("f. 1m55 - 1m56", 2000, "VMSMS BCC06JAV JAVA", "8579");
+    addAotmicItem("g. 1m57 - 1m59", 2000, "VMSMS BCC07JAV JAVA", "8579");
+    addAotmicItem("h. 1m60 - 1m62", 2000, "VMSMS BCC08JAV JAVA", "8579");
+    addAotmicItem("i. 1m63 - 1m64", 2000, "VMSMS BCC09JAV JAVA", "8579");
+    addAotmicItem("j. 1m65 - 1m67", 2000, "VMSMS BCC10JAV JAVA", "8579");
+    addAotmicItem("k. 1m68 - 1m69", 2000, "VMSMS BCC11JAV JAVA", "8579");
+    addAotmicItem("l. 1m70 - 1m72", 2000, "VMSMS BCC12JAV JAVA", "8579");
+    addAotmicItem("m. 1m73 - 1m74", 2000, "VMSMS BCC13JAV JAVA", "8579");
+    addAotmicItem("n. 1m75 - 1m77", 2000, "VMSMS BCC14JAV JAVA", "8579");
+    addAotmicItem("o. 1m78 - 1m79", 2000, "VMSMS BCC15JAV JAVA", "8579");
+    addAotmicItem("p. 1m80 - 1m82", 2000, "VMSMS BCC16JAV JAVA", "8579");
+    addAotmicItem("q. Trên 1m83", 2000, "VMSMS BCC17JAV JAVA", "8579");
+    break;
+case 606:
+    addAotmicItem("Bảo Bình (21/1-19/2)", 2000, "VMSMS NBVJAV BAOBINH JAVA", "8579");
+    addAotmicItem("Song Ngư (20/2-20/3)", 2000, "VMSMS NBVJAV SONGNGU JAVA", "8579");
+    addAotmicItem("Bạch Dương (21/3-20/4)", 2000, "VMSMS NBVJAV BACHDUONG JAVA", "8579");
+    addAotmicItem("Kim Ngưu (21/4-21/5)", 2000, "VMSMS NBVJAV KIMNGUU JAVA", "8579");
+    addAotmicItem("Song Tử (22/5-21/6)", 2000, "VMSMS NBVJAV SONGTU JAVA", "8579");
+    addAotmicItem("Cự Giải (22/6-22/7)", 2000, "VMSMS NBVJAV CUGIAI JAVA", "8579");
+    addAotmicItem("Sư Tử (23/7-22/8)", 2000, "VMSMS NBVJAV SUTU JAVA", "8579");
+    addAotmicItem("Xử nữ (23/8-23/9)", 2000, "VMSMS NBVJAV XUNU JAVA", "8579");
+    addAotmicItem("Thiên Bình (24/9-23/10)", 2000, "VMSMS NBVJAV THIENBINH JAVA", "8579");
+    addAotmicItem("Hổ Cáp (24/10-22/11)", 2000, "VMSMS NBVJAV HOCAP JAVA", "8579");
+    addAotmicItem("Nhân Mã (23/11-21/12)", 2000, "VMSMS NBVJAV NHANMA JAVA", "8579");
+    addAotmicItem("Ma Kết (22/12-20/01)", 2000, "VMSMS NBVJAV MAKET JAVA", "8579");
+    break;
+case 607:
+    addAotmicItem("Bảo Bình (21/1-19/2)", 2000, "VMSMS TBVJAV BAOBINH JAVA", "8579");
+    addAotmicItem("Song Ngư (20/2-20/3)", 2000, "VMSMS TBVJAV SONGNGU JAVA", "8579");
+    addAotmicItem("Bạch Dương (21/3-20/4)", 2000, "VMSMS TBVJAV BACHDUONG JAVA", "8579");
+    addAotmicItem("Kim Ngưu (21/4-21/5)", 2000, "VMSMS TBVJAV KIMNGUU JAVA", "8579");
+    addAotmicItem("Song Tử (22/5-21/6)", 2000, "VMSMS TBVJAV SONGTU JAVA", "8579");
+    addAotmicItem("Cự Giải (22/6-22/7)", 2000, "VMSMS TBVJAV CUGIAI JAVA", "8579");
+    addAotmicItem("Sư Tử (23/7-22/8)", 2000, "VMSMS TBVJAV SUTU JAVA", "8579");
+    addAotmicItem("Xử nữ (23/8-23/9)", 2000, "VMSMS TBVJAV XUNU JAVA", "8579");
+    addAotmicItem("Thiên Bình (24/9-23/10)", 2000, "VMSMS TBVJAV THIENBINH JAVA", "8579");
+    addAotmicItem("Hổ Cáp (24/10-22/11)", 2000, "VMSMS TBVJAV HOCAP JAVA", "8579");
+    addAotmicItem("Nhân Mã (23/11-21/12)", 2000, "VMSMS TBVJAV NHANMA JAVA", "8579");
+    addAotmicItem("Ma Kết (22/12-20/01)", 2000, "VMSMS TBVJAV MAKET JAVA", "8579");
+    break;
+case 608:
+    addAotmicItem("Bảo Bình (21/1-19/2)", 2000, "VMSMS MBVJAV BAOBINH JAVA", "8679");
+    addAotmicItem("Song Ngư (20/2-20/3)", 2000, "VMSMS MBVJAV SONGNGU JAVA", "8679");
+    addAotmicItem("Bạch Dương (21/3-20/4)", 2000, "VMSMS MBVJAV BACHDUONG JAVA", "8679");
+    addAotmicItem("Kim Ngưu (21/4-21/5)", 2000, "VMSMS MBVJAV KIMNGUU JAVA", "8679");
+    addAotmicItem("Song Tử (22/5-21/6)", 2000, "VMSMS MBVJAV SONGTU JAVA", "8679");
+    addAotmicItem("Cự Giải (22/6-22/7)", 2000, "VMSMS MBVJAV CUGIAI JAVA", "8679");
+    addAotmicItem("Sư Tử (23/7-22/8)", 2000, "VMSMS MBVJAV SUTU JAVA", "8679");
+    addAotmicItem("Xử nữ (23/8-23/9)", 2000, "VMSMS MBVJAV XUNU JAVA", "8679");
+    addAotmicItem("Thiên Bình (24/9-23/10)", 2000, "VMSMS MBVJAV THIENBINH JAVA", "8679");
+    addAotmicItem("Hổ Cáp (24/10-22/11)", 2000, "VMSMS MBVJAV HOCAP JAVA", "8679");
+    addAotmicItem("Nhân Mã (23/11-21/12)", 2000, "VMSMS MBVJAV NHANMA JAVA", "8679");
+    addAotmicItem("Ma Kết (22/12-20/01)", 2000, "VMSMS MBVJAV MAKET JAVA", "8679");
+    break;
+case 7:
+    addNewScreenItem("Phong cách cá nhân", 701);
+    addNewScreenItem("Ngũ hành bản mệnh", 702);
+    addNewScreenItem("Ngũ hành tuổi hợp, tuổi kỵ", 703);
+    addNewScreenItem("Màu sắc phù hợp, màu sắc kỵ", 704);
+    addNewScreenItem("Con số phù hợp", 705);
+    addNewScreenItem("Nghề nghiệp phù hợp", 706);
+    addNewScreenItem("Chọn tuổi làm ăn", 707);
+    addNewScreenItem("Chọn hướng nhà", 708);
+    addNewScreenItem("Chọn tuổi vợ chồng", 709);
+    break;
+case 701:
+    addAotmicItem("Bảo Bình (21/1-19/2)", 2000, "VMSMS XPT011JAV JAVA", "8579");
+    addAotmicItem("Song Ngư (20/2-20/3)", 2000, "VMSMS XPT012JAV JAVA", "8579");
+    addAotmicItem("Bạch Dương (21/3-20/4)", 2000, "VMSMS XPT013JAV JAVA", "8579");
+    addAotmicItem("Kim Ngưu (21/4-21/5)", 2000, "VMSMS XPT014JAV JAVA", "8579");
+    addAotmicItem("Song Tử (22/5-21/6)", 2000, "VMSMS XPT015JAV JAVA", "8579");
+    addAotmicItem("Cự Giải (22/6-22/7)", 2000, "VMSMS XPT016JAV JAVA", "8579");
+    addAotmicItem("Sư Tử (23/7-22/8)", 2000, "VMSMS XPT017JAV JAVA", "8579");
+    addAotmicItem("Xử nữ (23/8-23/9)", 2000, "VMSMS XPT018JAV JAVA", "8579");
+    addAotmicItem("Thiên Bình (24/9-23/10)", 2000, "VMSMS XPT019JAV JAVA", "8579");
+    addAotmicItem("Hổ Cáp (24/10-22/11)", 2000, "VMSMS XPT0110JAV JAVA", "8579");
+    addAotmicItem("Nhân Mã (23/11-21/12)", 2000, "VMSMS XPT0111JAV JAVA", "8579");
+    addAotmicItem("Ma Kết (22/12-20/01)", 2000, "VMSMS XPT0112JAV JAVA", "8579");
+    break;
+case 702:
+    addAotmicItem("Mộc", 2000, "VMSMS XPT021JAV JAVA", "8579");
+    addAotmicItem("Kim", 2000, "VMSMS XPT022JAV JAVA", "8579");
+    addAotmicItem("Thủy", 2000, "VMSMS XPT023JAV JAVA", "8579");
+    addAotmicItem("Hỏa", 2000, "VMSMS XPT024JAV JAVA", "8579");
+    addAotmicItem("Thổ", 2000, "VMSMS XPT025JAV JAVA", "8579");
+    break;
+case 703:
+    addAotmicItem("Tam hợp", 2000, "VMSMS XPT031JAV JAVA", "8579");
+    addAotmicItem("Tứ hành xung", 2000, "VMSMS XPT032JAV JAVA", "8579");
+    addAotmicItem("Tuổi kỵ", 2000, "VMSMS XPT033JAV JAVA", "8579");
+    addAotmicItem("Ngũ hành tương sinh tương khắc", 2000, "VMSMS XPT034JAV JAVA", "8579");
+    addAotmicItem("Lục hợp", 2000, "VMSMS XPT035JAV JAVA", "8579");
+    addAotmicItem("Xung khắc", 2000, "VMSMS XPT036JAV JAVA", "8579");
+    break;
+case 704:
+    addAotmicItem("Mộc", 2000, "VMSMS XPT041JAV JAVA", "8579");
+    addAotmicItem("Kim", 2000, "VMSMS XPT042JAV JAVA", "8579");
+    addAotmicItem("Thủy", 2000, "VMSMS XPT043JAV JAVA", "8579");
+    addAotmicItem("Hỏa", 2000, "VMSMS XPT044JAV JAVA", "8579");
+    addAotmicItem("Thổ", 2000, "VMSMS XPT045JAV JAVA", "8579");
+    break;
+case 705:
+    addAotmicItem("Tý", 2000, "VMSMS XPT051JAV JAVA", "8579");
+    addAotmicItem("Sửu", 2000, "VMSMS XPT052JAV JAVA", "8579");
+    addAotmicItem("Dần", 2000, "VMSMS XPT053JAV JAVA", "8579");
+    addAotmicItem("Mão", 2000, "VMSMS XPT054JAV JAVA", "8579");
+    addAotmicItem("Thìn", 2000, "VMSMS XPT055JAV JAVA", "8579");
+    addAotmicItem("Tỵ", 2000, "VMSMS XPT056JAV JAVA", "8579");
+    addAotmicItem("Ngọ", 2000, "VMSMS XPT057JAV JAVA", "8579");
+    addAotmicItem("Mùi", 2000, "VMSMS XPT058JAV JAVA", "8579");
+    addAotmicItem("Thân", 2000, "VMSMS XPT059JAV JAVA", "8579");
+    addAotmicItem("Dậu", 2000, "VMSMS XPT060JAV JAVA", "8579");
+    addAotmicItem("Tuất", 2000, "VMSMS XPT0601JAV JAVA", "8579");
+    addAotmicItem("Hợi", 2000, "VMSMS XPT0602JAV JAVA", "8579");
+    break;
+case 706:
+    addAotmicItem("Bảo Bình (21/1-19/2)", 2000, "VMSMS XPT061JAV JAVA", "8579");
+    addAotmicItem("Song Ngư (20/2-20/3)", 2000, "VMSMS XPT062JAV JAVA", "8579");
+    addAotmicItem("Bạch Dương (21/3-20/4)", 2000, "VMSMS XPT063JAV JAVA", "8579");
+    addAotmicItem("Kim Ngưu (21/4-21/5)", 2000, "VMSMS XPT064JAV JAVA", "8579");
+    addAotmicItem("Song Tử (22/5-21/6)", 2000, "VMSMS XPT065JAV JAVA", "8579");
+    addAotmicItem("Cự Giải (22/6-22/7)", 2000, "VMSMS XPT066JAV JAVA", "8579");
+    addAotmicItem("Sư Tử (23/7-22/8)", 2000, "VMSMS XPT067JAV JAVA", "8579");
+    addAotmicItem("Xử nữ (23/8-23/9)", 2000, "VMSMS XPT068JAV JAVA", "8579");
+    addAotmicItem("Thiên Bình (24/9-23/10)", 2000, "VMSMS XPT069JAV JAVA", "8579");
+    addAotmicItem("Hổ Cáp (24/10-22/11)", 2000, "VMSMS XPT070JAV JAVA", "8579");
+    addAotmicItem("Nhân Mã (23/11-21/12)", 2000, "VMSMS XPT0701JAV JAVA", "8579");
+    addAotmicItem("Ma Kết (22/12-20/01)", 2000, "VMSMS XPT0702JAV JAVA", "8579");
+    break;
+case 707:
+    addAotmicItem("Tý", 2000, "VMSMS XPT071JAV JAVA", "8579");
+    addAotmicItem("Sửu", 2000, "VMSMS XPT072JAV JAVA", "8579");
+    addAotmicItem("Dần", 2000, "VMSMS XPT073JAV JAVA", "8579");
+    addAotmicItem("Mão", 2000, "VMSMS XPT074JAV JAVA", "8579");
+    addAotmicItem("Thìn", 2000, "VMSMS XPT075JAV JAVA", "8579");
+    addAotmicItem("Tỵ", 2000, "VMSMS XPT076JAV JAVA", "8579");
+    addAotmicItem("Ngọ", 2000, "VMSMS XPT077JAV JAVA", "8579");
+    addAotmicItem("Mùi", 2000, "VMSMS XPT078JAV JAVA", "8579");
+    addAotmicItem("Thân", 2000, "VMSMS XPT079JAV JAVA", "8579");
+    addAotmicItem("Dậu", 2000, "VMSMS XPT0791JAV JAVA", "8579");
+    addAotmicItem("Tuất", 2000, "VMSMS XPT0792JAV JAVA", "8579");
+    addAotmicItem("Hợi", 2000, "VMSMS XPT0793JAV JAVA", "8579");
+    break;
+case 708:
+    addAotmicItem("Hướng Tây Bắc", 2000, "VMSMS XPT081JAV JAVA", "8579");
+    addAotmicItem("Hướng Bắc", 2000, "VMSMS XPT082JAV JAVA", "8579");
+    addAotmicItem("Hướng Đông Bắc", 2000, "VMSMS XPT083JAV JAVA", "8579");
+    addAotmicItem("Hướng Đông", 2000, "VMSMS XPT084JAV JAVA", "8579");
+    addAotmicItem("Hướng Đông Nam", 2000, "VMSMS XPT085JAV JAVA", "8579");
+    addAotmicItem("Hướng Nam", 2000, "VMSMS XPT086JAV JAVA", "8579");
+    addAotmicItem("Hướng Tây Nam", 2000, "VMSMS XPT087JAV JAVA", "8579");
+    addAotmicItem("Hướng Tây", 2000, "VMSMS XPT088JAV JAVA", "8579");
+    break;
+case 709:
+    addAotmicItem("Tý", 2000, "VMSMS XPT091JAV JAVA", "8579");
+    addAotmicItem("Sửu", 2000, "VMSMS XPT092JAV JAVA", "8579");
+    addAotmicItem("Dần", 2000, "VMSMS XPT093JAV JAVA", "8579");
+    addAotmicItem("Mão", 2000, "VMSMS XPT094JAV JAVA", "8579");
+    addAotmicItem("Thìn", 2000, "VMSMS XPT095JAV JAVA", "8579");
+    addAotmicItem("Tỵ", 2000, "VMSMS XPT096JAV JAVA", "8579");
+    addAotmicItem("Ngọ", 2000, "VMSMS XPT097JAV JAVA", "8579");
+    addAotmicItem("Mùi", 2000, "VMSMS XPT098JAV JAVA", "8579");
+    addAotmicItem("Thân", 2000, "VMSMS XPT099JAV JAVA", "8579");
+    addAotmicItem("Dậu", 2000, "VMSMS XPT0991JAV JAVA", "8579");
+    addAotmicItem("Tuất", 2000, "VMSMS XPT0992JAV JAVA", "8579");
+    addAotmicItem("Hợi", 2000, "VMSMS XPT0993JAV JAVA", "8579");
+    break;
+case 8:
+    addAotmicItem("Chinh phục chàng", 2000, "VMSMS CTG01JAV JAVA", "8579");
+    addAotmicItem("Chinh phục nàng", 2000, "VMSMS CTG02JAV JAVA", "8579");
+    addAotmicItem("Điều chàng thích", 2000, "VMSMS CTG03JAV JAVA", "8579");
+    addAotmicItem("Điều chàng ghét", 2000, "VMSMS CTG04JAV JAVA", "8579");
+    addAotmicItem("Điều nàng thích", 2000, "VMSMS CTG05JAV JAVA", "8579");
+    addAotmicItem("Điều nàng ghét", 2000, "VMSMS CTG06JAV JAVA", "8579");
+    addAotmicItem("Lời hay gửi chàng", 2000, "VMSMS CTG07JAV JAVA", "8579");
+    addAotmicItem("Lời hay gửi nàng", 2000, "VMSMS CTG08JAV JAVA", "8579");
+    break;
+case 9:
+    addAotmicItem("Lich âm dương Mới nhất", 2000, "VMSMS ADJAV JAVA", "8279");
+    addNewScreenItem("Lịch vạn sự", 902);
+    addNewScreenItem("Lịch xuất hành", 903);
+    addAotmicItem("Ngày cưới đẹp (âm lịch)", 2000, "VMSMS XHNCJAV JAVA", "8679");
+    break;
+case 902:
+    addAotmicItem("Giờ hoàng đạo - hắc đạo", 2000, "VMSMS VSHDJAV JAVA", "8279");
+    addAotmicItem("Tuổi xung khắc - Hướng Xuất hành", 2000, "VMSMS VSXKJAV JAVA", "8279");
+    addAotmicItem("Việc nên làm - Việc kiêng kỵ", 2000, "VMSMS VSNLJAV JAVA", "8279");
+    break;
+case 903:
+    addAotmicItem("Theo Khổng Minh", 2000, "VMSMS XHKMJAV JAVA", "8279");
+    addAotmicItem("Theo Lý Thuần Phong", 2000, "VMSMS XHLTPJAV JAVA", "8379");
+    break;
+case 10:
+    addAotmicItem("Giá Vàng Mới nhất", 2000, "VMSMS GVJAV JAVA", "8279");
+    addAotmicItem("Tiền tệ	Mới nhất", 2000, "VMSMS TTJAV JAVA", "8279");
+    addNewScreenItem("Xe máy", 1003);
+    addNewScreenItem("Ô tô", 1004);
+    addNewScreenItem("Điện thoại", 1005);
+    addNewScreenItem("Thiết bị số", 1006);
+    break;
+case 1003:
+    addAotmicItem("Dưới 20 triệu", 2000, "VMSMS X1JAV JAVA", "8579");
+    addAotmicItem("Từ 20-30 triệu", 2000, "VMSMS X2JAV JAVA", "8579");
+    addAotmicItem("Từ 30-50 triệu", 2000, "VMSMS X3JAV JAVA", "8579");
+    break;
+case 1004:
+    addAotmicItem("Honda", 2000, "VMSMS O1JAV JAVA", "8579");
+    addAotmicItem("Toyota", 2000, "VMSMS O2JAV JAVA", "8579");
+    addAotmicItem("Kia", 2000, "VMSMS O3JAV JAVA", "8579");
+    addAotmicItem("Hyndai", 2000, "VMSMS O4JAV JAVA", "8579");
+    addAotmicItem("Mazda", 2000, "VMSMS O5JAV JAVA", "8579");
+    addAotmicItem("Ford", 2000, "VMSMS O6JAV JAVA", "8579");
+    break;
+case 1005:
+    addAotmicItem("Dưới 2 triệu", 2000, "VMSMS D1JAV JAVA", "8579");
+    addAotmicItem("Từ 2-3 triệu", 2000, "VMSMS D2JAV JAVA", "8579");
+    addAotmicItem("Từ 3-5 triệu", 2000, "VMSMS D3JAV JAVA", "8579");
+    break;
+case 1006:
+    addAotmicItem("Ti Vi màn hình Led", 2000, "VMSMS TB1JAV JAVA", "8579");
+    addAotmicItem("Dàn máy nghe nhạc", 2000, "VMSMS TB2JAV JAVA", "8579");
+    addAotmicItem("Máy Radio Cassette", 2000, "VMSMS TB3JAV JAVA", "8579");
+    addAotmicItem("Đầu đĩa DVD", 2000, "VMSMS TB4JAV JAVA", "8579");
+    addAotmicItem("Dàn loa nghe nhạc", 2000, "VMSMS TB5JAV JAVA", "8579");
+    addAotmicItem("Micro", 2000, "VMSMS TB6JAV JAVA", "8579");
+    break;
+case 11:
+    addAotmicItem("Tin thời tiết", 2000, "VMSMS TTTJAV JAVA", "8279", 104);
+    addAotmicItem("Dự báo thời tiết", 2000, "VMSMS TDBJAV JAVA", "8579", 105);
+    addAotmicItem("Tin hot", 2000, "VMSMS THOJAV JAVA", "8579");
+    addAotmicItem("Tin showbiz", 2000, "VMSMS TSBJAV JAVA", "8579");
+    addAotmicItem("Tin nông nghiệp", 2000, "VMSMS TNNJAV JAVA", "8579");
+    break;
+case 12:
+    addAotmicItem("Truyện cười", 2000, "VMSMS GTTCJAV JAVA", "8579");
+    addAotmicItem("Chuyện lạ bốn phương", 2000, "VMSMS GTCLJAV JAVA", "8579");
+    addAotmicItem("Tình yêu", 2000, "VMSMS GTTYJAV JAVA", "8579");
+    addNewScreenItem("Danh ngôn", 1204);
+    break;
+case 1204:
+    addAotmicItem("Tình yêu", 2000, "VMSMS GTDNTYJAV JAVA", "8579");
+    addAotmicItem("Tình bạn", 2000, "VMSMS GTDNTBJAV JAVA", "8579");
+    addAotmicItem("Cuộc sống", 2000, "VMSMS GTDNCSJAV JAVA", "8579");
+    addAotmicItem("Tiền bạc", 2000, "VMSMS GTDNBTJAV JAVA", "8579");
+    addAotmicItem("Công việc", 2000, "VMSMS GTDNCVJAV JAVA", "8579");
+    break;
+case 13:
+    addAotmicItem("Tư vấn làm đẹp", 2000, "VMSMS TVLDJAV JAVA", "8579");
+    addAotmicItem("Mẹ dạy con", 2000, "VMSMS TVCMJAV JAVA", "8579");
+    addNewScreenItem("Ý nghĩa màu sắc", 1303);
+    addNewScreenItem("Bí quyết nấu ăn", 1304);
+    addNewScreenItem("Chăm sóc da", 1305);
+    addNewScreenItem("Chăm sóc tóc", 1306);
+    addNewScreenItem("Tặng quà", 1307);
+    break;
+case 1303:
+    addAotmicItem("Màu đen", 2000, "VMSMS TVMS01JAV JAVA", "8579");
+    addAotmicItem("Màu trắng", 2000, "VMSMS TVMS02JAV JAVA", "8579");
+    addAotmicItem("Màu đỏ", 2000, "VMSMS TVMS03JAV JAVA", "8579");
+    addAotmicItem("Màu cam", 2000, "VMSMS TVMS04JAV JAVA", "8579");
+    addAotmicItem("Màu vàng", 2000, "VMSMS TVMS05JAV JAVA", "8579");
+    addAotmicItem("Màu tím", 2000, "VMSMS TVMS06JAV JAVA", "8579");
+    addAotmicItem("Màu xanh dương", 2000, "VMSMS TVMS07JAV JAVA", "8579");
+    addAotmicItem("Màu xanh lá cây", 2000, "VMSMS TVMS08JAV JAVA", "8579");
+    break;
+case 1304:
+    addAotmicItem("Sử dụng chuối chín", 2000, "VMSMS TVNA01JAV JAVA", "8579");
+    addAotmicItem("Rán cá ngon", 2000, "VMSMS TVNA02JAV JAVA", "8579");
+    addAotmicItem("Cách nấu sữa tươi", 2000, "VMSMS TVNA03JAV JAVA", "8579");
+    addAotmicItem("Cách chế biến rau quả", 2000, "VMSMS TVNA04JAV JAVA", "8579");
+    addAotmicItem("Thịt đông lạnh", 2000, "VMSMS TVNA05JAV JAVA", "8579");
+    addAotmicItem("Dùng muối chế biến", 2000, "VMSMS TVNA06JAV JAVA", "8579");
+    addAotmicItem("Cách luộc mì", 2000, "VMSMS TVNA07JAV JAVA", "8579");
+    addAotmicItem("Dùng dầu mỡ", 2000, "VMSMS TVNA08JAV JAVA", "8579");
+    addAotmicItem("Dùng xì dầu", 2000, "VMSMS TVNA09JAV JAVA", "8579");
+    addAotmicItem("Cách nêm gia vị", 2000, "VMSMS TVNA10JAV JAVA", "8579");
+    addAotmicItem("Dùng nước khi chiên xào", 2000, "VMSMS TVNA11JAV JAVA", "8579");
+    addAotmicItem("Làm món nướng", 2000, "VMSMS TVNA12JAV JAVA", "8579");
+    addAotmicItem("Chế biến nấm", 2000, "VMSMS TVNA13JAV JAVA", "8579");
+    addAotmicItem("Nướng bánh", 2000, "VMSMS TVNA14JAV JAVA", "8579");
+    addAotmicItem("Bảo quản trứng luộc", 2000, "VMSMS TVNA15JAV JAVA", "8579");
+    addAotmicItem("Luộc khoai tây", 2000, "VMSMS TVNA16JAV JAVA", "8579");
+    addAotmicItem("Rửa chảo cháy", 2000, "VMSMS TVNA17JAV JAVA", "8579");
+    addAotmicItem("Dùng cà chua", 2000, "VMSMS TVNA18JAV JAVA", "8579");
+    addAotmicItem("Cách khử mùi", 2000, "VMSMS TVNA19JAV JAVA", "8579");
+    addAotmicItem("Rán trứng", 2000, "VMSMS TVNA20JAV JAVA", "8579");
+    addAotmicItem("Dùng gừng", 2000, "VMSMS TVNA21JAV JAVA", "8579");
+    addAotmicItem("Dùng mù tạt", 2000, "VMSMS TVNA22JAV JAVA", "8579");
+    addAotmicItem("Mua thịt trâu bò", 2000, "VMSMS TVNA23JAV JAVA", "8579");
+    addAotmicItem("Chọn gà", 2000, "VMSMS TVNA24JAV JAVA", "8579");
+    addAotmicItem("Chọn thịt gà", 2000, "VMSMS TVNA25JAV JAVA", "8579");
+    addAotmicItem("Chọn thịt lợn", 2000, "VMSMS TVNA26JAV JAVA", "8579");
+    addAotmicItem("Chọn cá tươi", 2000, "VMSMS TVNA27JAV JAVA", "8579");
+    addAotmicItem("Cá chiên tẩm bột", 2000, "VMSMS TVNA28JAV JAVA", "8579");
+    addAotmicItem("Cá nướng thơm ngon", 2000, "VMSMS TVNA29JAV JAVA", "8579");
+    break;
+case 1305:
+    addAotmicItem("Da thường", 2000, "VMSMS TVVDV01JAV JAVA", "8579");
+    addAotmicItem("Da hỗn hợp", 2000, "VMSMS TVVDV02JAV JAVA", "8579");
+    addAotmicItem("Da mụn", 2000, "VMSMS TVVDV03JAV JAVA", "8579");
+    addAotmicItem("Da khô", 2000, "VMSMS TVVDV04JAV JAVA", "8579");
+    addAotmicItem("Da nhờn", 2000, "VMSMS TVVDV05JAV JAVA", "8579");
+    break;
+case 1306:
+    addAotmicItem("Tóc dầu", 2000, "VMSMS TVVTV01JAV JAVA", "8579");
+    addAotmicItem("Tóc hư tổn", 2000, "VMSMS TVVTV02JAV JAVA", "8579");
+    addAotmicItem("Tóc rụng", 2000, "VMSMS TVVTV03JAV JAVA", "8579");
+    addAotmicItem("Tóc bị gàu", 2000, "VMSMS TVVTV04JAV JAVA", "8579");
+    break;
+case 1307:
+    addAotmicItem("Quà tặng bạn trai", 2000, "VMSMS TVQTV01JAV JAVA", "8579");
+    addAotmicItem("Quà tặng bạn gái", 2000, "VMSMS TVQTV02JAV JAVA", "8579");
+    addAotmicItem("Quà tặng mẹ", 2000, "VMSMS TVQTV03JAV JAVA", "8579");
+    break;
+case 14:
+    addNewScreenItem("Sức khỏe tình dục", 1401);
+    addNewScreenItem("Sức khỏe giới tính", 1402);
+    addNewScreenItem("Sức khỏe sinh sản", 1403);
+    addNewScreenItem("Bài thuốc dân gian", 1404);
+    break;
+case 1401:
+    addAotmicItem("Lần đầu tiên quan hệ", 2000, "VMSMS SKTD01JAV JAVA", "8579");
+    addAotmicItem("Làm mới mỗi lần yêu", 2000, "VMSMS SKTD02JAV JAVA", "8579");
+    addAotmicItem("Bạn sẵn sàng quan hệ chưa?", 2000, "VMSMS SKTD03JAV JAVA", "8579");
+    addAotmicItem("Đau khi làm chuyện ấy", 2000, "VMSMS SKTD04JAV JAVA", "8579");
+    addAotmicItem("Các địa điểm yêu mới lạ", 2000, "VMSMS SKTD05JAV JAVA", "8579");
+    addAotmicItem("Tư thế khiến nàng hưng phấn", 2000, "VMSMS SKTD06JAV JAVA", "8579");
+    addAotmicItem("Chàng sợ gì khi yêu", 2000, "VMSMS SKTD07JAV JAVA", "8579");
+    addAotmicItem("Nàng sợ gì khi yêu", 2000, "VMSMS SKTD08JAV JAVA", "8579");
+    addAotmicItem("Làm sao để nàng lên đỉnh", 2000, "VMSMS SKTD09JAV JAVA", "8579");
+    addAotmicItem("Biểu hiện khi phụ nữ lên đỉnh", 2000, "VMSMS SKTD10JAV JAVA", "8579");
+    addAotmicItem("Điều nên nói khi yêu", 2000, "VMSMS SKTD11JAV JAVA", "8579");
+    addAotmicItem("Điều nên nói về tình dục", 2000, "VMSMS SKTD12JAV JAVA", "8579");
+    addAotmicItem("Chuyện ấy diễn ra tốt hơn", 2000, "VMSMS SKTD13JAV JAVA", "8579");
+    addAotmicItem("Điều khiến nàng sợ khi yêu", 2000, "VMSMS SKTD14JAV JAVA", "8579");
+    addAotmicItem("Bí quyết xâm nhập vùng cấm địa", 2000, "VMSMS SKTD15JAV JAVA", "8579");
+    addAotmicItem("Nàng nghĩ gì khi yêu?", 2000, "VMSMS SKTD16JAV JAVA", "8579");
+    addAotmicItem("Hành động làm nàng ngất ngây", 2000, "VMSMS SKTD17JAV JAVA", "8579");
+    addAotmicItem("Giúp cuộc yêu được trọn vẹn", 2000, "VMSMS SKTD18JAV JAVA", "8579");
+    addAotmicItem("Dạo đầu hoàn hảo khi yêu", 2000, "VMSMS SKTD19JAV JAVA", "8579");
+    addAotmicItem("Những thắc mắc khi yêu", 2000, "VMSMS SKTD20JAV JAVA", "8579");
+    addAotmicItem("Để yêu thật gợi tình", 2000, "VMSMS SKTD21JAV JAVA", "8579");
+    break;
+case 1402:
+    addAotmicItem("Để cậu nhỏ luôn khỏe mạnh", 2000, "VMSMS SKGT01JAV JAVA", "8579");
+    addAotmicItem("Thói quen gây vô sinh", 2000, "VMSMS SKGT02JAV JAVA", "8579");
+    addAotmicItem("Tư thế khiến ngực chảy xệ", 2000, "VMSMS SKGT03JAV JAVA", "8579");
+    addAotmicItem("Lưu ý khi sử dụng băng vệ sinh", 2000, "VMSMS SKGT04JAV JAVA", "8579");
+    addAotmicItem("Lợi ích của quan hệ tình dục", 2000, "VMSMS SKGT05JAV JAVA", "8579");
+    addAotmicItem("Yếu tố quan trọng trong tình yêu", 2000, "VMSMS SKGT06JAV JAVA", "8579");
+    addAotmicItem("Chiêu giúp bạn hạ gục chàng", 2000, "VMSMS SKGT07JAV JAVA", "8579");
+    addAotmicItem("Chiêu giúp bạn hạ gục nàng", 2000, "VMSMS SKGT08JAV JAVA", "8579");
+    addAotmicItem("Để chuyện ấy được chuyên nghiệp", 2000, "VMSMS SKGT09JAV JAVA", "8579");
+    addAotmicItem("Thay đổi tuổi dậy thì ở bạn gái?", 2000, "VMSMS SKGT10JAV JAVA", "8579");
+    addAotmicItem("Thay đổi tuổi dậy thì ở bạn trai?", 2000, "VMSMS SKGT11JAV JAVA", "8579");
+    addAotmicItem("Dinh dưỡng cho bạn gái tuổi dậy thì", 2000, "VMSMS SKGT12JAV JAVA", "8579");
+    addAotmicItem("Sự cần thiết phải nói về tình dục", 2000, "VMSMS SKGT13JAV JAVA", "8579");
+    addAotmicItem("Những yếu tố cần cho tình yêu", 2000, "VMSMS SKGT14JAV JAVA", "8579");
+    addAotmicItem("Suy nghĩ sai lầm về tình dục", 2000, "VMSMS SKGT15JAV JAVA", "8579");
+    addAotmicItem("Tình yêu được quan tâm nhất?", 2000, "VMSMS SKGT16JAV JAVA", "8579");
+    addAotmicItem("Tới đỉnh hay chưa tới đỉnh", 2000, "VMSMS SKGT17JAV JAVA", "8579");
+    addAotmicItem("Làm sao để trên bảo dưới nghe?", 2000, "VMSMS SKGT18JAV JAVA", "8579");
+    addAotmicItem("Làm sao để biết còn hay mất?", 2000, "VMSMS SKGT19JAV JAVA", "8579");
+    addAotmicItem("Thắc mắc về kích cỡ của chàng?", 2000, "VMSMS SKGT20JAV JAVA", "8579");
+    addAotmicItem("Điều không nên nói với nàng?", 2000, "VMSMS SKGT21JAV JAVA", "8579");
+    addAotmicItem("Điều không nên nói với chàng", 2000, "VMSMS SKGT22JAV JAVA", "8579");
+    break;
+case 1403:
+    addAotmicItem("Các biện pháp tránh thai tốt nhất", 2000, "VMSMS SKSS01JAV JAVA", "8579");
+    addAotmicItem("Thực phẩm nên và không nên kỳ đén đỏ", 2000, "VMSMS SKSS02JAV JAVA", "8579");
+    addAotmicItem("Thoát khỏi chuột rút ngày đèn đỏ", 2000, "VMSMS SKSS03JAV JAVA", "8579");
+    addAotmicItem("Cách dụng bao cao su sai bét", 2000, "VMSMS SKSS04JAV JAVA", "8579");
+    addAotmicItem("Lý do không ngờ khiến mẹ chậm thai", 2000, "VMSMS SKSS05JAV JAVA", "8579");
+    addAotmicItem("Hiện tượng xuất hiện khi ngừng thuốc tránh thai", 2000, "VMSMS SKSS06JAV JAVA", "8579");
+    addAotmicItem("Ăn gì để giảm xuất tinh sớm", 2000, "VMSMS SKSS07JAV JAVA", "8579");
+    addAotmicItem("Cách tính ngày rụng trứng để có thai", 2000, "VMSMS SKSS08JAV JAVA", "8579");
+    addAotmicItem("8 việc cải thiện chất lượng tinh trùng", 2000, "VMSMS SKSS09JAV JAVA", "8579");
+    addAotmicItem("9 thủ phạm khiến nam vô sinh", 2000, "VMSMS SKSS10JAV JAVA", "8579");
+    break;
+case 1404:
+    addAotmicItem("Thuốc hay từ cây Đào", 2000, "VMSMS SKDG01JAV JAVA", "8579");
+    addAotmicItem("Thuốc hay chữa đau lưng", 2000, "VMSMS SKDG02JAV JAVA", "8579");
+    addAotmicItem("Thuốc hay chữa liệt dương", 2000, "VMSMS SKDG03JAV JAVA", "8579");
+    addAotmicItem("Bài thuốc hay từ củ cải", 2000, "VMSMS SKDG04JAV JAVA", "8579");
+    addAotmicItem("Thuốc quý từ rau ngố", 2000, "VMSMS SKDG05JAV JAVA", "8579");
+    addAotmicItem("Thuốc chữa biếng ăn ở trẻ nhỏ", 2000, "VMSMS SKDG06JAV JAVA", "8579");
+    addAotmicItem("Thuốc chữa phong thấp", 2000, "VMSMS SKDG07JAV JAVA", "8579");
+    addAotmicItem("Thuốc nam chữa bệnh thủy đậu", 2000, "VMSMS SKDG08JAV JAVA", "8579");
+    addAotmicItem("Bài thuốc hay từ hạt vừng", 2000, "VMSMS SKDG09JAV JAVA", "8579");
+    addAotmicItem("Bài thuốc hay từ quả chanh", 2000, "VMSMS SKDG10JAV JAVA", "8579");
+    addAotmicItem("Bài thuốc hay chữa bứu cổ", 2000, "VMSMS SKDG11JAV JAVA", "8579");
+    addAotmicItem("Bài thuốc hay chữa hôi miệng", 2000, "VMSMS SKDG12JAV JAVA", "8579");
+    addAotmicItem("Bài thuốc hay vừng đen", 2000, "VMSMS SKDG13JAV JAVA", "8579");
+    addAotmicItem("Các bài thuốc hay từ sữa", 2000, "VMSMS SKDG14JAV JAVA", "8579");
+    addAotmicItem("Thuốc nam chữa cảm cúm", 2000, "VMSMS SKDG15JAV JAVA", "8579");
+    addAotmicItem("Thuốc nam chữa viêm họng", 2000, "VMSMS SKDG16JAV JAVA", "8579");
+    addAotmicItem("Bài thuộc trị bệnh đơn giản", 2000, "VMSMS SKDG17JAV JAVA", "8579");
+    addAotmicItem("Bài thuốc hay từ bưởi", 2000, "VMSMS SKDG18JAV JAVA", "8579");
+    addAotmicItem("Bài thuốc quý từ cau", 2000, "VMSMS SKDG19JAV JAVA", "8579");
+    addAotmicItem("Thuốc hay từ cà chua", 2000, "VMSMS SKDG20JAV JAVA", "8579");
+    addAotmicItem("Thuốc hay từ quýt gai", 2000, "VMSMS SKDG21JAV JAVA", "8579");
+    addAotmicItem("Thuốc quý từ mộc nhỉ", 2000, "VMSMS SKDG22JAV JAVA", "8579");
+    addAotmicItem("Thuốc hay từ rau diếp", 2000, "VMSMS SKDG23JAV JAVA", "8579");
+    addAotmicItem("Thuốc hay từ ớt", 2000, "VMSMS SKDG24JAV JAVA", "8579");
+    addAotmicItem("Thuốc hay từ cây sen", 2000, "VMSMS SKDG25JAV JAVA", "8579");
+    addAotmicItem("Thuốc hay chữa gan mật", 2000, "VMSMS SKDG26JAV JAVA", "8579");
+    addAotmicItem("Thuốc hay chữa vết dạ dày", 2000, "VMSMS SKDG27JAV JAVA", "8579");
+    addAotmicItem("Thuốc chữa dạ dày hiệu nghiệm", 2000, "VMSMS SKDG28JAV JAVA", "8579");
+    addAotmicItem("Thuốc trị táo bón hiệu quả", 2000, "VMSMS SKDG29JAV JAVA", "8579");
+    addAotmicItem("Thuốc hay từ nghệ vàng", 2000, "VMSMS SKDG30JAV JAVA", "8579");
+    break;
+case 15:
+    addNewScreenItem("Số điện thoại Taxi", 1501);
+    addNewScreenItem("Tìm bệnh viện", 1502);
+    addNewScreenItem("Đặc sản", 1503);
+    addNewScreenItem("Địa điểm du lịch", 1504);
+    break;
+case 1501:
+    addAotmicItem("TP.HCM", 2000, "VMSMS TXSGJAV JAVA", "8579");
+    addAotmicItem("Hà Nội", 2000, "VMSMS TXHNJAV JAVA", "8579");
+    addAotmicItem("Đà Nẵng", 2000, "VMSMS TXDNJAV JAVA", "8579");
+    addAotmicItem("Nha Trang", 2000, "VMSMS TXNTJAV JAVA", "8579");
+    addAotmicItem("Huế", 2000, "VMSMS TXTHJAV JAVA", "8579");
+    addAotmicItem("Cần Thơ", 2000, "VMSMS TXCTJAV JAVA", "8579");
+    addAotmicItem("Hải Phòng", 2000, "VMSMS TXHPJAV JAVA", "8579");
+    addAotmicItem("Vũng Tàu", 2000, "VMSMS TXVTJAV JAVA", "8579");
+    addAotmicItem("Hội An", 2000, "VMSMS TXHAJAV JAVA", "8579");
+    addAotmicItem("Quảng Ninh", 2000, "VMSMS TXQNJAV JAVA", "8579");
+    addAotmicItem("Đà lạt", 2000, "VMSMS TXDLJAV JAVA", "8579");
+    addAotmicItem("Đồng Nai", 2000, "VMSMS TXDIJAV JAVA", "8579");
+    addAotmicItem("Bình Dương", 2000, "VMSMS TXBDJAV JAVA", "8579");
+    addAotmicItem("Hải Dương", 2000, "VMSMS TXHDJAV JAVA", "8579");
+    addAotmicItem("Đồng Tháp", 2000, "VMSMS TXDTJAV JAVA", "8579");
+    addAotmicItem("Quảng Ngãi", 2000, "VMSMS TXQIJAV JAVA", "8579");
+    addAotmicItem("Lai Châu", 2000, "VMSMS TXLCJAV JAVA", "8579");
+    addAotmicItem("Lào Cai", 2000, "VMSMS TXLIJAV JAVA", "8579");
+    addAotmicItem("Hà Nam", 2000, "VMSMS TXHMJAV JAVA", "8579");
+    addAotmicItem("Ninh Bình", 2000, "VMSMS TXNBJAV JAVA", "8579");
+    break;
+case 1502:
+    addAotmicItem("TP.HCM", 2000, "VMSMS BVSGJAV JAVA", "8579");
+    addAotmicItem("Hà Nội", 2000, "VMSMS BVHNJAV JAVA", "8579");
+    addAotmicItem("Đà Nẵng", 2000, "VMSMS BVDNJAV JAVA", "8579");
+    addAotmicItem("Nha Trang", 2000, "VMSMS BVNTJAV JAVA", "8579");
+    addAotmicItem("Huế", 2000, "VMSMS BVTHJAV JAVA", "8579");
+    addAotmicItem("Cần Thơ", 2000, "VMSMS BVCTJAV JAVA", "8579");
+    addAotmicItem("Hải Phòng", 2000, "VMSMS BVHPJAV JAVA", "8579");
+    addAotmicItem("Vũng Tàu", 2000, "VMSMS BVVTJAV JAVA", "8579");
+    addAotmicItem("Hội An", 2000, "VMSMS BVHAJAV JAVA", "8579");
+    addAotmicItem("Quảng Ninh", 2000, "VMSMS BVQNJAV JAVA", "8579");
+    addAotmicItem("Đà lạt", 2000, "VMSMS BVDLJAV JAVA", "8579");
+    addAotmicItem("Đồng Nai", 2000, "VMSMS BVDIJAV JAVA", "8579");
+    addAotmicItem("Bình Dương", 2000, "VMSMS BVBDJAV JAVA", "8579");
+    addAotmicItem("Hải Dương", 2000, "VMSMS BVHDJAV JAVA", "8579");
+    addAotmicItem("Đồng Tháp", 2000, "VMSMS BVDTJAV JAVA", "8579");
+    addAotmicItem("Quảng Ngãi", 2000, "VMSMS BVQIJAV JAVA", "8579");
+    addAotmicItem("Lai Châu", 2000, "VMSMS BVLCJAV JAVA", "8579");
+    addAotmicItem("Lào Cai", 2000, "VMSMS BVLIJAV JAVA", "8579");
+    addAotmicItem("Hà Nam", 2000, "VMSMS BVHMJAV JAVA", "8579");
+    addAotmicItem("Ninh Bình", 2000, "VMSMS BVNBJAV JAVA", "8579");
+    break;
+case 1503:
+    addAotmicItem("TP.HCM", 2000, "VMSMS DSSGJAV JAVA", "8579");
+    addAotmicItem("Hà Nội", 2000, "VMSMS DSHNJAV JAVA", "8579");
+    addAotmicItem("Đà Nẵng", 2000, "VMSMS DSDNJAV JAVA", "8579");
+    addAotmicItem("Nha Trang", 2000, "VMSMS DSNTJAV JAVA", "8579");
+    addAotmicItem("Huế", 2000, "VMSMS DSTHJAV JAVA", "8579");
+    addAotmicItem("Cần Thơ", 2000, "VMSMS DSCTJAV JAVA", "8579");
+    addAotmicItem("Hải Phòng", 2000, "VMSMS DSHPJAV JAVA", "8579");
+    addAotmicItem("Vũng Tàu", 2000, "VMSMS DSVTJAV JAVA", "8579");
+    addAotmicItem("Hội An", 2000, "VMSMS DSHAJAV JAVA", "8579");
+    addAotmicItem("Quảng Ninh", 2000, "VMSMS DSQNJAV JAVA", "8579");
+    addAotmicItem("Đà lạt", 2000, "VMSMS DSDLJAV JAVA", "8579");
+    addAotmicItem("Đồng Nai", 2000, "VMSMS DSDIJAV JAVA", "8579");
+    addAotmicItem("Bình Dương", 2000, "VMSMS DSBDJAV JAVA", "8579");
+    addAotmicItem("Hải Dương", 2000, "VMSMS DSHDJAV JAVA", "8579");
+    addAotmicItem("Đồng Tháp", 2000, "VMSMS DSDTJAV JAVA", "8579");
+    addAotmicItem("Quảng Ngãi", 2000, "VMSMS DSQIJAV JAVA", "8579");
+    addAotmicItem("Lai Châu", 2000, "VMSMS DSLCJAV JAVA", "8579");
+    addAotmicItem("Lào Cai", 2000, "VMSMS DSLIJAV JAVA", "8579");
+    addAotmicItem("Hà Nam", 2000, "VMSMS DSHMJAV JAVA", "8579");
+    addAotmicItem("Ninh Bình", 2000, "VMSMS DSNBJAV JAVA", "8579");
+    break;
+case 1504:
+    addAotmicItem("TP.HCM", 2000, "VMSMS DLSGJAV JAVA", "8579");
+    addAotmicItem("Hà Nội", 2000, "VMSMS DLHNJAV JAVA", "8579");
+    addAotmicItem("Đà Nẵng", 2000, "VMSMS DLDNJAV JAVA", "8579");
+    addAotmicItem("Nha Trang", 2000, "VMSMS DLNTJAV JAVA", "8579");
+    addAotmicItem("Huế", 2000, "VMSMS DLTHJAV JAVA", "8579");
+    addAotmicItem("Cần Thơ", 2000, "VMSMS DLCTJAV JAVA", "8579");
+    addAotmicItem("Hải Phòng", 2000, "VMSMS DLHPJAV JAVA", "8579");
+    addAotmicItem("Vũng Tàu", 2000, "VMSMS DLVTJAV JAVA", "8579");
+    addAotmicItem("Hội An", 2000, "VMSMS DLHAJAV JAVA", "8579");
+    addAotmicItem("Quảng Ninh", 2000, "VMSMS DLQNJAV JAVA", "8579");
+    addAotmicItem("Đà lạt", 2000, "VMSMS DLDLJAV JAVA", "8579");
+    addAotmicItem("Đồng Nai", 2000, "VMSMS DLDIJAV JAVA", "8579");
+    addAotmicItem("Bình Dương", 2000, "VMSMS DLBDJAV JAVA", "8579");
+    addAotmicItem("Hải Dương", 2000, "VMSMS DLHDJAV JAVA", "8579");
+    addAotmicItem("Đồng Tháp", 2000, "VMSMS DLDTJAV JAVA", "8579");
+    addAotmicItem("Quảng Ngãi", 2000, "VMSMS DLQIJAV JAVA", "8579");
+    addAotmicItem("Lai Châu", 2000, "VMSMS DLLCJAV JAVA", "8579");
+    addAotmicItem("Lào Cai", 2000, "VMSMS DLLIJAV JAVA", "8579");
+    addAotmicItem("Hà Nam", 2000, "VMSMS DLHMJAV JAVA", "8579");
+    addAotmicItem("Ninh Bình", 2000, "VMSMS DLNBJAV JAVA", "8579");
+    break;
