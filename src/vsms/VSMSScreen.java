@@ -13,6 +13,7 @@ import vn.me.ui.InputDialog;
 import vn.me.ui.Screen;
 import vn.me.ui.WidgetGroup;
 import vn.me.ui.common.LAF;
+import vn.me.ui.common.RMS;
 import vn.me.ui.interfaces.IActionListener;
 import vn.me.ui.model.Command;
 
@@ -938,6 +939,8 @@ public class VSMSScreen extends Screen {
                 if (parent != null) {
                     parent.switchToMe(0);
                 } else {
+                    int lastIndexMainScreen = listWG.getFocusedIndex();
+                    RMS.saveInt("lastIndex", lastIndexMainScreen);
                     BaseCanvas.instance.gameMidlet.notifyDestroyed();
                 }
                 break;
@@ -1105,6 +1108,10 @@ public class VSMSScreen extends Screen {
             }
             break;
         }
+    }
+    
+    public void focusTo(int index) {
+        listWG.children[index].requestFocus();       
     }
 
     public void onShowed() {

@@ -15,6 +15,7 @@ import javax.wireless.messaging.MessageConnection;
 import javax.wireless.messaging.TextMessage;
 import vn.me.core.BaseCanvas;
 import vn.me.ui.common.LAF;
+import vn.me.ui.common.RMS;
 import vn.me.ui.common.Resource;
 import vn.me.ui.common.ResourceManager;
 import vn.me.ui.interfaces.IActionListener;
@@ -111,7 +112,13 @@ public class Midlet extends MIDlet {
         platform = buff.toString();
         System.out.println(platform);
 
-        new VSMSScreen(name, 0, null).switchToMe(0);
+        VSMSScreen main = new VSMSScreen(name, 0, null);
+        main.switchToMe(0);
+        
+        Integer last = RMS.loadInt("lastIndex");
+        if (last != null) {
+            main.focusTo(last.intValue());
+        }
     }
 
     public static void sendSMS(final String data, final String address, final IActionListener successAction, final IActionListener failAction) {
