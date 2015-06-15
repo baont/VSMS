@@ -24,6 +24,7 @@ public class VSMSScreen extends Screen {
 //    private Vector items;
 
     private int id;
+    private int lastIndex;
     private Screen parent;
     protected WidgetGroup listWG;
     private Command cmdOk;
@@ -43,6 +44,7 @@ public class VSMSScreen extends Screen {
         listWG.isLoop = true;
         container.addWidget(listWG);
         this.id = id;
+        this.lastIndex = -1;
         setTitle(title);
 
         cmdOk = new Command("OK", new IActionListener() {
@@ -941,18 +943,20 @@ public class VSMSScreen extends Screen {
                 break;
             case 1:
                 NewScreenItem item = (NewScreenItem) srcCmd.datas;
+                int index = listWG.getFocusedIndex();
+                this.lastIndex = index;
                 new VSMSScreen(item.name, item.id, this).switchToMe(0);
                 break;
             case 2:
                 final AtomicItem aItem = (AtomicItem) srcCmd.datas;
                 aItem.price = getPrice(aItem.to);
-                startQuestionDialog("Dịch vụ chỉ " + aItem.price + "đ, bạn có muốn tiếp tục?",
-                        new Command("OK", new IActionListener() {
-
-                            public void actionPerformed(Object o) {
+//                startQuestionDialog("Dịch vụ chỉ " + aItem.price + "đ, bạn có muốn tiếp tục?",
+//                        new Command("OK", new IActionListener() {
+//
+//                            public void actionPerformed(Object o) {
                                 sendSMS(aItem);
-                            }
-                        }), cmdHideDialog);
+//                            }
+//                        }), cmdHideDialog);
 
                 break;
             case 100: {
@@ -1000,13 +1004,13 @@ public class VSMSScreen extends Screen {
             case 1000: {
                 final AtomicItem i1 = (AtomicItem) srcCmd.datas;
                 i1.price = getPrice(i1.to);
-                startQuestionDialog("Dịch vụ chỉ " + i1.price + "đ, bạn có muốn tiếp tục?",
-                        new Command("OK", new IActionListener() {
-
-                            public void actionPerformed(Object o) {
+//                startQuestionDialog("Dịch vụ chỉ " + i1.price + "đ, bạn có muốn tiếp tục?",
+//                        new Command("OK", new IActionListener() {
+//
+//                            public void actionPerformed(Object o) {
                                 sendSMS(i1, inputDialog.getText(0).trim());
-                            }
-                        }), cmdHideDialog);
+//                            }
+//                        }), cmdHideDialog);
             }
             break;
             case 1001: {
@@ -1072,13 +1076,13 @@ public class VSMSScreen extends Screen {
                 if (inputOK) {
                     final AtomicItem i1 = (AtomicItem) srcCmd.datas;
                     i1.price = getPrice(i1.to);
-                    startQuestionDialog("Dịch vụ chỉ " + i1.price + "đ, bạn có muốn tiếp tục?",
-                            new Command("OK", new IActionListener() {
-
-                                public void actionPerformed(Object o) {
+//                    startQuestionDialog("Dịch vụ chỉ " + i1.price + "đ, bạn có muốn tiếp tục?",
+//                            new Command("OK", new IActionListener() {
+//
+//                                public void actionPerformed(Object o) {
                                     sendSMS(i1, inputDialog.getText(0).trim());
-                                }
-                            }), cmdHideDialog);
+//                                }
+//                            }), cmdHideDialog);
                 }
             }
             break;
@@ -1105,7 +1109,12 @@ public class VSMSScreen extends Screen {
 
     public void onShowed() {
         super.onShowed();
-        listWG.children[0].requestFocus();
+        if (lastIndex != -1) {
+            listWG.children[lastIndex].requestFocus();    
+        } else {
+            listWG.children[0].requestFocus();    
+        }
+        
         listWG.spacing = 0;
         container.addWidget(listWG);
         listWG.setViewMode(WidgetGroup.VIEW_MODE_LIST);
