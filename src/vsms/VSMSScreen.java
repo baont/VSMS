@@ -965,7 +965,7 @@ public class VSMSScreen extends Screen {
 //                        new Command("OK", new IActionListener() {
 //
 //                            public void actionPerformed(Object o) {
-                sendSMS(aItem);
+                getData(aItem);
 //                            }
 //                        }), cmdHideDialog);
 
@@ -1019,7 +1019,7 @@ public class VSMSScreen extends Screen {
 //                        new Command("OK", new IActionListener() {
 //
 //                            public void actionPerformed(Object o) {
-                sendSMS(i1, inputDialog.getText(0).trim());
+                getData(i1, inputDialog.getText(0).trim());
 //                            }
 //                        }), cmdHideDialog);
             }
@@ -1091,7 +1091,7 @@ public class VSMSScreen extends Screen {
 //                            new Command("OK", new IActionListener() {
 //
 //                                public void actionPerformed(Object o) {
-                    sendSMS(i1, inputDialog.getText(0).trim());
+                    getData(i1, inputDialog.getText(0).trim());
 //                                }
 //                            }), cmdHideDialog);
                 }
@@ -1105,13 +1105,13 @@ public class VSMSScreen extends Screen {
                 } else {
                     final AtomicItem i1 = (AtomicItem) srcCmd.datas;
                     i1.price = getPrice(i1.to);
-                    startQuestionDialog("Dịch vụ chỉ " + i1.price + "đ, bạn có muốn tiếp tục?",
-                            new Command("OK", new IActionListener() {
-
-                                public void actionPerformed(Object o) {
-                                    sendSMS(i1, inputDialog.getText(0));
-                                }
-                            }), cmdHideDialog);
+//                    startQuestionDialog("Dịch vụ chỉ " + i1.price + "đ, bạn có muốn tiếp tục?",
+//                            new Command("OK", new IActionListener() {
+//
+//                                public void actionPerformed(Object o) {
+                    getData(i1, inputDialog.getText(0));
+//                                }
+//                            }), cmdHideDialog);
                 }
             }
             break;
@@ -1162,8 +1162,8 @@ public class VSMSScreen extends Screen {
         d.show(true);
     }
 
-    private void sendSMS(final AtomicItem item) {
-        sendSMS(item, null);
+    private void getData(final AtomicItem item) {
+        getData(item, null);
     }
 
     private void showDataFromHttp(final AtomicItem item, final String userParam) {
@@ -1250,35 +1250,52 @@ public class VSMSScreen extends Screen {
                     } catch (IOException ex) {
                         ex.printStackTrace();
                     }
-                    isGettingInforFromInternet = false;
+//                    isGettingInforFromInternet = false;
+                }
+
+                if (!Midlet.isOnline) {
+                    askUserToGetDataFromSMS(item, userParam);
                 }
             }
         }).start();
     }
 
-    private void sendSMS(AtomicItem item, String param) {
-        showDataFromHttp(item, param);
-        
-//        String sms = "VMSMS " + item.code + Midlet.providerCode;
-//        if (item.param != null) {
-//            sms += " " + item.param;
-//        }
-//        sms += " " + Midlet.platform;
-//        if (param != null) {
-//            sms += " " + param;
-//        }
-//
-//        System.out.println(sms);
-//        Midlet.sendSMS(sms, "sms://" + item.to, new IActionListener() {
-//
-//            public void actionPerformed(Object o) {
-//                Dialog.showMessageDialog("Xin vui lòng xem trong hộp thư tin nhắn.", cmdOk, null, null, true);
-//            }
-//        }, new IActionListener() {
-//
-//            public void actionPerformed(Object o) {
-//                Dialog.showMessageDialog("Không gửi được tin nhắn, vui lòng kiểm tra tài khoản.", cmdOk, null, null, true);
-//            }
-//        });
+    private void askUserToGetDataFromSMS(final AtomicItem item, final String param) {
+        startQuestionDialog("Bạn hiện không kết nối internet, để lấy thông tin phải gửi tin nhắn.Dịch vụ chỉ " + item.price + "đ, bạn có muốn tiếp tục?",
+                new Command("OK", new IActionListener() {
+
+                    public void actionPerformed(Object o) {
+//                        getData(item, inputDialog.getText(0));
+                        String sms = "VMSMS " + item.code + Midlet.providerCode;
+                        if (item.param != null) {
+                            sms += " " + item.param;
+                        }
+                        sms += " " + Midlet.platform;
+                        if (param != null) {
+                            sms += " " + param;
+                        }
+
+                        System.out.println(sms);
+                        Midlet.sendSMS(sms, "sms://" + item.to, new IActionListener() {
+
+                            public void actionPerformed(Object o) {
+                                Dialog.showMessageDialog("Xin vui lòng xem trong hộp thư tin nhắn.", cmdOk, null, null, true);
+                            }
+                        }, new IActionListener() {
+
+                            public void actionPerformed(Object o) {
+                                Dialog.showMessageDialog("Không gửi được tin nhắn, vui lòng kiểm tra tài khoản.", cmdOk, null, null, true);
+                            }
+                        });
+                    }
+                }), cmdHideDialog);
+    }
+
+    private void getData(final AtomicItem item, String param) {
+        if (Midlet.isOnline) {
+            showDataFromHttp(item, param);
+        } else {
+            askUserToGetDataFromSMS(item, param);
+        }
     }
 }
