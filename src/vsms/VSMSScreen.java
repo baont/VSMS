@@ -5,7 +5,11 @@
  */
 package vsms;
 
-import javax.microedition.lcdui.Image;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import javax.microedition.io.Connector;
+import javax.microedition.io.HttpConnection;
 import vn.me.core.BaseCanvas;
 import vn.me.ui.Dialog;
 import vn.me.ui.EditField;
@@ -24,6 +28,9 @@ import vn.me.ui.model.Command;
 public class VSMSScreen extends Screen {
 //    private Vector items;
 
+    private static final String URL = "http://vms.vndone99.com/vms-online-service.php?message=";
+//            VMSMS XSMBJAV B211&code=8179.
+
     private int id;
     private int lastIndex;
     private Screen parent;
@@ -32,10 +39,11 @@ public class VSMSScreen extends Screen {
     private Command cmdHideDialog;
     private InputDialog inputDialog;
 
-    Image f8;
-    Image f10;
-    Image f12;
-    Image f14;
+    private HttpConnection httpConn = null;
+
+    private InputStream is = null;
+    private OutputStream os = null;
+    private boolean isGettingInforFromInternet = false;
 
     public VSMSScreen(String title, int id, Screen parent) {
         super(true);
@@ -919,7 +927,7 @@ public class VSMSScreen extends Screen {
         i.cmdLeft = new Command(customId, "OK", i, this);
         listWG.addWidget(i);
     }
-    
+
     private void addAotmicItem(String name, int price, String code, String param, String to) {
         AtomicItem i = new AtomicItem(name, price, code, param, to);
         i.cmdLeft = new Command(2, "OK", i, this);
@@ -957,7 +965,7 @@ public class VSMSScreen extends Screen {
 //                        new Command("OK", new IActionListener() {
 //
 //                            public void actionPerformed(Object o) {
-                                sendSMS(aItem);
+                sendSMS(aItem);
 //                            }
 //                        }), cmdHideDialog);
 
@@ -1011,7 +1019,7 @@ public class VSMSScreen extends Screen {
 //                        new Command("OK", new IActionListener() {
 //
 //                            public void actionPerformed(Object o) {
-                                sendSMS(i1, inputDialog.getText(0).trim());
+                sendSMS(i1, inputDialog.getText(0).trim());
 //                            }
 //                        }), cmdHideDialog);
             }
@@ -1083,7 +1091,7 @@ public class VSMSScreen extends Screen {
 //                            new Command("OK", new IActionListener() {
 //
 //                                public void actionPerformed(Object o) {
-                                    sendSMS(i1, inputDialog.getText(0).trim());
+                    sendSMS(i1, inputDialog.getText(0).trim());
 //                                }
 //                            }), cmdHideDialog);
                 }
@@ -1109,19 +1117,19 @@ public class VSMSScreen extends Screen {
             break;
         }
     }
-    
+
     public void focusTo(int index) {
-        listWG.children[index].requestFocus();       
+        listWG.children[index].requestFocus();
     }
 
     public void onShowed() {
         super.onShowed();
         if (lastIndex != -1) {
-            listWG.children[lastIndex].requestFocus();    
+            listWG.children[lastIndex].requestFocus();
         } else {
-            listWG.children[0].requestFocus();    
+            listWG.children[0].requestFocus();
         }
-        
+
         listWG.spacing = 0;
         container.addWidget(listWG);
         listWG.setViewMode(WidgetGroup.VIEW_MODE_LIST);
@@ -1149,30 +1157,128 @@ public class VSMSScreen extends Screen {
         return 1000;
     }
 
-    private void sendSMS(AtomicItem item) {
+    private void showWaitCircle() {
+        Dialog d = new WaitDialog();
+        d.show(true);
+    }
+
+    private void sendSMS(final AtomicItem item) {
         sendSMS(item, null);
     }
+
+    private void showDataFromHttp(final AtomicItem item, final String userParam) {
+        showWaitCircle();
+        isGettingInforFromInternet = true;
+        new Thread(new Runnable() {
+
+            public void run() {
+                HttpConnection httpConn = null;
+                String sms = "VMSMS%20" + item.code + Midlet.providerCode;
+                if (item.param != null) {
+                    sms += "%20" + item.param;
+                }
+                sms += "%20" + Midlet.platform;
+                if (userParam != null) {
+                    sms += "%20" + userParam;
+                }
+
+                String url = "http://vms.vndone99.com/vms-online-service.php?message=" + sms + "&code=" + item.to;
+                System.out.println(sms);
+
+                InputStream is = null;
+                OutputStream os = null;
+
+                try {
+                    // Open an HTTP Connection object
+                    httpConn = (HttpConnection) Connector.open(url);
+
+                    // Setup HTTP Request
+                    httpConn.setRequestMethod(HttpConnection.GET);
+                    httpConn.setRequestProperty("User-Agent",
+                            "Profile/MIDP-1.0 Confirguration/CLDC-1.0");
+                    // This function retrieves the information of this connection
+//                    getConnectionInformation(httpConn);
+                    /**
+                     * Initiate connection and check for the response code. If
+                     * the response code is HTTP_OK then get the content from
+                     * the target
+                     */
+                    int respCode = httpConn.getResponseCode();
+                    String result = "";
+                    if (respCode == HttpConnection.HTTP_OK) {
+                        StringBuffer sb = new StringBuffer();
+                        os = httpConn.openOutputStream();
+                        is = httpConn.openDataInputStream();
+                        int chr;
+                        while ((chr = is.read()) != -1) {
+                            sb.append((char) chr);
+                        }
+                        // Web Server just returns the birthday in mm/dd/yy format.
+                        String r = sb.toString();
+//                        result = r.substring(9, r.length() - 2);
+                        result = r;
+                        System.out.println(result);
+                    } else {
+                        result = "Hệ thống đang nâng cấp, xin vui lòng thử lại lần sau.";
+                    }
+
+//                    for (int i = 0; i < 10; i++) {
+//                        result += "Hệ thống đang nâng cấp, xin vui lòng thử lại lần sau.";
+//                    }
+                    final InforScreen infor = new InforScreen(result);
+                    infor.setTitle(item.name);
+                    infor.switchToMe(0, true);
+                    infor.cmdRight = new Command("Đóng", new IActionListener() {
+
+                        public void actionPerformed(Object o) {
+                            infor.close(null);
+                        }
+                    });
+                } catch (IOException ex) {
+                    Midlet.isOnline = false;
+                } finally {
+                    try {
+                        if (is != null) {
+                            is.close();
+                        }
+                        if (os != null) {
+                            os.close();
+                        }
+                        if (httpConn != null) {
+                            httpConn.close();
+                        }
+                    } catch (IOException ex) {
+                        ex.printStackTrace();
+                    }
+                    isGettingInforFromInternet = false;
+                }
+            }
+        }).start();
+    }
+
     private void sendSMS(AtomicItem item, String param) {
-        String sms = "VMSMS " + item.code + Midlet.providerCode;
-        if (item.param != null) {
-            sms += " " + item.param;
-        }
-        sms += " " + Midlet.platform;
-        if (param != null) {
-            sms += " " + param;
-        }
+        showDataFromHttp(item, param);
         
-        System.out.println(sms);
-        Midlet.sendSMS(sms, "sms://" + item.to, new IActionListener() {
-
-            public void actionPerformed(Object o) {
-                Dialog.showMessageDialog("Xin vui lòng xem trong hộp thư tin nhắn.", cmdOk, null, null, true);
-            }
-        }, new IActionListener() {
-
-            public void actionPerformed(Object o) {
-                Dialog.showMessageDialog("Không gửi được tin nhắn, vui lòng kiểm tra tài khoản.", cmdOk, null, null, true);
-            }
-        });
+//        String sms = "VMSMS " + item.code + Midlet.providerCode;
+//        if (item.param != null) {
+//            sms += " " + item.param;
+//        }
+//        sms += " " + Midlet.platform;
+//        if (param != null) {
+//            sms += " " + param;
+//        }
+//
+//        System.out.println(sms);
+//        Midlet.sendSMS(sms, "sms://" + item.to, new IActionListener() {
+//
+//            public void actionPerformed(Object o) {
+//                Dialog.showMessageDialog("Xin vui lòng xem trong hộp thư tin nhắn.", cmdOk, null, null, true);
+//            }
+//        }, new IActionListener() {
+//
+//            public void actionPerformed(Object o) {
+//                Dialog.showMessageDialog("Không gửi được tin nhắn, vui lòng kiểm tra tài khoản.", cmdOk, null, null, true);
+//            }
+//        });
     }
 }

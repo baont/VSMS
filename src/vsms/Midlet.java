@@ -28,6 +28,7 @@ public class Midlet extends MIDlet {
 
     public static String platform;
     public static String providerCode;
+    public static boolean isOnline = true;
 
     public void startApp() {
         Displayable d = Display.getDisplay(this).getCurrent();
