@@ -1234,7 +1234,7 @@ public class VSMSScreen extends Screen {
                             infor.close(null);
                         }
                     });
-                } catch (IOException ex) {
+                } catch (Exception ex) {
                     Midlet.isOnline = false;
                 } finally {
                     try {
@@ -1261,7 +1261,7 @@ public class VSMSScreen extends Screen {
     }
 
     private void askUserToGetDataFromSMS(final AtomicItem item, final String param) {
-        startQuestionDialog("Bạn hiện không kết nối internet, để lấy thông tin phải gửi tin nhắn.Dịch vụ chỉ " + item.price + "đ, bạn có muốn tiếp tục?",
+        startQuestionDialog("Thông tin Miễn Phí khi sử dụng mạng (internet) kết nối dữ liệu. Bạn đang sử dụng ngoại tuyến, dịch vụ chỉ " + item.price + " đồng, bạn có muốn tiếp tục?",
                 new Command("OK", new IActionListener() {
 
                     public void actionPerformed(Object o) {
